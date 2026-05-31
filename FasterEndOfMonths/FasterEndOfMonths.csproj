@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>FasterEndOfMonths</AssemblyName>
+    <RootNamespace>FasterEndOfMonths</RootNamespace>
+    <Nullable>disable</Nullable>
+    <OutputPath>bin\Release\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="GameScripts">
+      <HintPath>H:\SteamLibrary\steamapps\common\Stacklands\Stacklands_Data\Managed\GameScripts.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="SokLoc">
+      <HintPath>H:\SteamLibrary\steamapps\common\Stacklands\Stacklands_Data\Managed\SokLoc.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>H:\SteamLibrary\steamapps\common\Stacklands\Stacklands_Data\Managed\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\Stacklands\Stacklands_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>H:\SteamLibrary\steamapps\common\Stacklands\Stacklands_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+  <Target Name="CopyToMods" AfterTargets="Build">
+    <Copy SourceFiles="$(OutputPath)FasterEndOfMonths.dll"
+          DestinationFolder="H:\SteamLibrary\steamapps\workshop\content\1948280\3012089421\" />
+    <Message Text="FasterEndOfMonths installed to Workshop." Importance="high" />
+  </Target>
+</Project>

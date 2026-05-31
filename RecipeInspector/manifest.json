@@ -1,0 +1,6 @@
+{
+  "Id": "recipe_inspector",
+  "Name": "Recipe Inspector",
+  "Version": "1.0.0",
+  "Description": "Ctrl+click any card to see its recipes in a side panel. Works with Russian language."
+}

@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>RecipeInspector</AssemblyName>
+    <RootNamespace>RecipeInspectorNS</RootNamespace>
+    <Nullable>disable</Nullable>
+    <OutputPath>bin\Release\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <!-- Find game DLLs automatically from registry or common paths -->
+    <StacklandsPath Condition="Exists('H:\SteamLibrary\steamapps\common\Stacklands')">H:\SteamLibrary\steamapps\common\Stacklands</StacklandsPath>
+    <StacklandsPath Condition="Exists('C:\Program Files (x86)\Steam\steamapps\common\Stacklands')">C:\Program Files (x86)\Steam\steamapps\common\Stacklands</StacklandsPath>
+    <StacklandsPath Condition="Exists('C:\Program Files\Steam\steamapps\common\Stacklands')">C:\Program Files\Steam\steamapps\common\Stacklands</StacklandsPath>
+    <StacklandsManagedPath>$(StacklandsPath)\Stacklands_Data\Managed</StacklandsManagedPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="GameScripts">
+      <HintPath>$(StacklandsManagedPath)\GameScripts.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="SokLoc">
+      <HintPath>$(StacklandsManagedPath)\SokLoc.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(StacklandsManagedPath)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(StacklandsManagedPath)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(StacklandsManagedPath)\UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(StacklandsManagedPath)\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>$(StacklandsManagedPath)\Unity.TextMeshPro.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>$(StacklandsManagedPath)\Unity.InputSystem.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Auto-install to Mods folder using AppData env variable (works on any Windows PC) -->
+  <Target Name="CopyToMods" AfterTargets="Build">
+    <PropertyGroup>
+      <!-- AppData = C:\Users\Username\AppData\Roaming, LocalLow is one level up then down -->
+      <LocalLowPath>$([System.IO.Path]::Combine($(APPDATA), '..', 'LocalLow'))</LocalLowPath>
+      <ModsTarget>$(LocalLowPath)\sokpop\Stacklands\Mods\RecipeInspector</ModsTarget>
+    </PropertyGroup>
+    <MakeDir Directories="$(ModsTarget)" Condition="!Exists('$(ModsTarget)')" />
+    <Copy SourceFiles="$(OutputPath)RecipeInspector.dll" DestinationFolder="$(ModsTarget)" />
+    <Copy SourceFiles="manifest.json" DestinationFolder="$(ModsTarget)" Condition="Exists('manifest.json')" />
+    <Message Text="RecipeInspector installed to $(ModsTarget)" Importance="high" />
+  </Target>
+</Project>

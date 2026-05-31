@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>BetterSideBar</AssemblyName>
+    <RootNamespace>BetterSideBarNS</RootNamespace>
+    <Nullable>disable</Nullable>
+    <OutputPath>bin\Release\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <StacklandsPath Condition="Exists('H:\SteamLibrary\steamapps\common\Stacklands')">H:\SteamLibrary\steamapps\common\Stacklands</StacklandsPath>
+    <StacklandsPath Condition="Exists('C:\Program Files (x86)\Steam\steamapps\common\Stacklands')">C:\Program Files (x86)\Steam\steamapps\common\Stacklands</StacklandsPath>
+    <StacklandsPath Condition="Exists('C:\Program Files\Steam\steamapps\common\Stacklands')">C:\Program Files\Steam\steamapps\common\Stacklands</StacklandsPath>
+    <StacklandsManagedPath>$(StacklandsPath)\Stacklands_Data\Managed</StacklandsManagedPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="GameScripts">
+      <HintPath>$(StacklandsManagedPath)\GameScripts.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="SokLoc">
+      <HintPath>$(StacklandsManagedPath)\SokLoc.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(StacklandsManagedPath)\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(StacklandsManagedPath)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(StacklandsManagedPath)\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>$(StacklandsManagedPath)\Unity.TextMeshPro.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>$(StacklandsManagedPath)\Unity.InputSystem.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(StacklandsManagedPath)\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>$(StacklandsManagedPath)\Unity.InputSystem.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="CopyToMods" AfterTargets="Build">
+    <PropertyGroup>
+      <LocalLowPath>$([System.IO.Path]::Combine($(APPDATA), '..', 'LocalLow'))</LocalLowPath>
+      <ModsTarget>$(LocalLowPath)\sokpop\Stacklands\Mods\BetterSideBar</ModsTarget>
+    </PropertyGroup>
+    <MakeDir Directories="$(ModsTarget)" Condition="!Exists('$(ModsTarget)')" />
+    <Copy SourceFiles="$(OutputPath)BetterSideBar.dll" DestinationFolder="$(ModsTarget)" />
+    <Message Text="BetterSideBar installed to $(ModsTarget)" Importance="high" />
+  </Target>
+</Project>

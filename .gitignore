@@ -1,0 +1,29 @@
+## Build outputs
+bin/
+obj/
+*.dll
+*.pdb
+*.user
+
+## Visual Studio / Rider
+.vs/
+.idea/
+*.suo
+*.userosscache
+*.sln.docstates
+
+## OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+## Keep manifest and source, ignore compiled output
+!manifest.json
+!*.cs
+!*.csproj
+!*.md
+!*.png
+!*.tsv
+!*.ps1
+!*.json
+.claude/
