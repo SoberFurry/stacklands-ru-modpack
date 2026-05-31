@@ -137,7 +137,9 @@ namespace RecipeInspectorNS
         /// </summary>
         private static string FindRuTsvPath()
         {
-            // 1. Check loaded mods for one that has a Russian column
+            var candidates = new List<(string path, int rows)>();
+
+            // 1. Check loaded mods for ones that have a Russian column
             if (ModManager.LoadedMods != null)
             {
                 foreach (Mod mod in ModManager.LoadedMods)
@@ -145,7 +147,7 @@ namespace RecipeInspectorNS
                     if (mod?.Path == null) continue;
                     string candidate = System.IO.Path.Combine(mod.Path, "localization.tsv");
                     if (File.Exists(candidate) && HasRussianColumn(candidate))
-                        return candidate;
+                        candidates.Add((candidate, CountTsvRows(candidate)));
                 }
             }
 
@@ -156,13 +158,24 @@ namespace RecipeInspectorNS
                 {
                     if (!Directory.Exists(modDir)) continue;
                     string candidate = System.IO.Path.Combine(modDir, "localization.tsv");
-                    if (File.Exists(candidate) && HasRussianColumn(candidate))
-                        return candidate;
+                    if (File.Exists(candidate) && HasRussianColumn(candidate) && !candidates.Any(x => x.path == candidate))
+                        candidates.Add((candidate, CountTsvRows(candidate)));
                 }
             }
             catch { }
 
-            return null;
+            if (candidates.Count == 0) return null;
+
+            // Return the TSV with the most rows (most complete translation)
+            candidates.Sort((a, b) => b.rows.CompareTo(a.rows));
+            if (L != null) L.Log($"RuTsv candidates: {string.Join(", ", candidates.Select(x => $"{x.rows}:{System.IO.Path.GetFileName(System.IO.Path.GetDirectoryName(x.path))}"))}");
+            return candidates[0].path;
+        }
+
+        private static int CountTsvRows(string path)
+        {
+            try { return File.ReadLines(path).Count(l => !string.IsNullOrWhiteSpace(l)); }
+            catch { return 0; }
         }
 
         private static bool HasRussianColumn(string tsvPath)

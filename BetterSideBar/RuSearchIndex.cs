@@ -34,11 +34,7 @@ namespace BetterSideBarNS
                 _termToRu.Clear();
                 _cardBlob.Clear();
 
-                if (string.IsNullOrEmpty(_tsvPath) || !File.Exists(_tsvPath))
-                {
-                    // Try to find it automatically
-                    _tsvPath = FindRuTsv();
-                }
+                _tsvPath = FindRuTsv(); // always re-find to pick most complete TSV
 
                 if (!string.IsNullOrEmpty(_tsvPath) && File.Exists(_tsvPath))
                 {
@@ -63,7 +59,9 @@ namespace BetterSideBarNS
 
         private static string FindRuTsv()
         {
-            // Strategy 1: check loaded mods (works on any PC, no hardcoded paths)
+            var candidates = new List<(string path, int rows)>();
+
+            // Strategy 1: loaded mods
             try
             {
                 if (ModManager.LoadedMods != null)
@@ -72,25 +70,38 @@ namespace BetterSideBarNS
                     {
                         if (mod?.Path == null) continue;
                         string c = Path.Combine(mod.Path, "localization.tsv");
-                        if (File.Exists(c) && HasRuColumn(c)) return c;
+                        if (File.Exists(c) && HasRuColumn(c))
+                            candidates.Add((c, CountRows(c)));
                     }
                 }
             }
             catch { }
 
-            // Strategy 2: search all registered mod paths (workshop + local)
+            // Strategy 2: all mod paths (workshop + local)
             try
             {
                 foreach (string dir in ModManager.GetModPaths())
                 {
                     if (!Directory.Exists(dir)) continue;
                     string c = Path.Combine(dir, "localization.tsv");
-                    if (File.Exists(c) && HasRuColumn(c)) return c;
+                    if (File.Exists(c) && HasRuColumn(c) && !candidates.Any(x => x.path == c))
+                        candidates.Add((c, CountRows(c)));
                 }
             }
             catch { }
 
-            return null;
+            if (candidates.Count == 0) return null;
+
+            // Return the TSV with the most rows (most complete translation)
+            candidates.Sort((a, b) => b.rows.CompareTo(a.rows));
+            if (L != null) L.Log($"RuTsv candidates: {string.Join(", ", candidates.Select(x => $"{x.rows}:{Path.GetFileName(Path.GetDirectoryName(x.path))}"))}");
+            return candidates[0].path;
+        }
+
+        private static int CountRows(string path)
+        {
+            try { return File.ReadLines(path).Count(l => !string.IsNullOrWhiteSpace(l)); }
+            catch { return 0; }
         }
 
         private static bool HasRuColumn(string path)
