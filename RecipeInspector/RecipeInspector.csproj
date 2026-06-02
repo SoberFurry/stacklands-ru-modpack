@@ -47,6 +47,14 @@
       <HintPath>$(StacklandsManagedPath)\Unity.InputSystem.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>$(StacklandsManagedPath)\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(StacklandsManagedPath)\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
 
   <!-- Auto-install to Mods folder using AppData env variable (works on any Windows PC) -->
@@ -57,8 +65,11 @@
       <ModsTarget>$(LocalLowPath)\sokpop\Stacklands\Mods\RecipeInspector</ModsTarget>
     </PropertyGroup>
     <MakeDir Directories="$(ModsTarget)" Condition="!Exists('$(ModsTarget)')" />
+    <MakeDir Directories="$(ModsTarget)\Icons" Condition="!Exists('$(ModsTarget)\Icons')" />
     <Copy SourceFiles="$(OutputPath)RecipeInspector.dll" DestinationFolder="$(ModsTarget)" />
     <Copy SourceFiles="manifest.json" DestinationFolder="$(ModsTarget)" Condition="Exists('manifest.json')" />
+    <ItemGroup><IconFiles Include="Icons\*.png" /></ItemGroup>
+    <Copy SourceFiles="@(IconFiles)" DestinationFolder="$(ModsTarget)\Icons" />
     <Message Text="RecipeInspector installed to $(ModsTarget)" Importance="high" />
   </Target>
 </Project>

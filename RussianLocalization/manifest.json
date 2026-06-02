@@ -1,0 +1,8 @@
+{
+  "Id": "russian_localization_soberfurry",
+  "Name": "Russian Localization / Русский язык",
+  "Description": "Полный перевод игры Stacklands на русский язык. Поддерживаются все карты, квесты, описания, статус-эффекты и интерфейс.\n\nTrebuet: Stacklands New Language Loader",
+  "Version": "1.0.0",
+  "Authors": ["SoberFurry"],
+  "Dependencies": ["Stacklands_NewLanguageLoader"]
+}

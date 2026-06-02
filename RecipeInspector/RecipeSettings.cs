@@ -5,20 +5,25 @@ namespace RecipeInspectorNS
     public static class RecipeSettings
     {
         // Keys
-        private const string K_ICONS    = "RI_ShowIcons";
-        private const string K_FONT     = "RI_FontSize";    // 0=small 1=normal 2=large
-        private const string K_MAXVAR   = "RI_MaxVariants";
-        private const string K_FOUND    = "RI_OnlyFound";
-        private const string K_DARK     = "RI_DarkTheme";
-        private const string K_ALPHA    = "RI_Opacity";     // 0=70% 1=88% 2=99%
-        private const string K_AUTOHIDE = "RI_AutoHide";
-        private const string K_KEEPCRAFT= "RI_KeepOnCraft"; // don't remove tab on craft
-        private const string K_SHOWRES  = "RI_ShowResult";  // show result arrow row
+        private const string K_ICONS     = "RI_ShowIcons";
+        private const string K_FONT      = "RI_FontSize";
+        private const string K_MAXVAR    = "RI_MaxVariants";
+        private const string K_FOUND     = "RI_OnlyFound";
+        private const string K_DARK      = "RI_DarkTheme";
+        private const string K_ALPHA     = "RI_Opacity";
+        private const string K_AUTOHIDE  = "RI_AutoHide";
+        private const string K_KEEPCRAFT = "RI_KeepOnCraft";
+        private const string K_SHOWRES   = "RI_ShowResult";
         private const string K_SHOWTIME  = "RI_ShowTime";
         private const string K_DEDUP     = "RI_DedupVariants";
-        private const string K_AUTODELAY = "RI_AutoHideDelay";  // 1, 3 или 5 секунд
-        private const string K_POSX     = "RI_PosX";
-        private const string K_POSY     = "RI_PosY";
+        private const string K_AUTODELAY = "RI_AutoHideDelay";
+        private const string K_POSX      = "RI_PosX";
+        private const string K_POSY      = "RI_PosY";
+
+        // Keybinding keys
+        private const string K_KEY_OPEN  = "RI_Key_Open";
+        private const string K_KEY_PIN   = "RI_Key_Pin";
+        private const string K_KEY_HIDE  = "RI_Key_Hide";
 
         // ── Properties ─────────────────────────────────────────────────────────────
 
@@ -100,6 +105,25 @@ namespace RecipeInspectorNS
             set { PlayerPrefs.SetFloat(K_POSX, value.x); PlayerPrefs.SetFloat(K_POSY, value.y); }
         }
 
+        // Горячие клавиши (хранятся как KeyCode int)
+        public static KeyCode KeyOpen
+        {
+            get => (KeyCode)PlayerPrefs.GetInt(K_KEY_OPEN, (int)KeyCode.R);
+            set => PlayerPrefs.SetInt(K_KEY_OPEN, (int)value);
+        }
+
+        public static KeyCode KeyPin
+        {
+            get => (KeyCode)PlayerPrefs.GetInt(K_KEY_PIN, (int)KeyCode.P);
+            set => PlayerPrefs.SetInt(K_KEY_PIN, (int)value);
+        }
+
+        public static KeyCode KeyHide
+        {
+            get => (KeyCode)PlayerPrefs.GetInt(K_KEY_HIDE, (int)KeyCode.H);
+            set => PlayerPrefs.SetInt(K_KEY_HIDE, (int)value);
+        }
+
         // ── Derived values ─────────────────────────────────────────────────────────
 
         public static float Opacity => OpacityIdx == 0 ? 0.68f : OpacityIdx == 1 ? 0.86f : 0.98f;
@@ -129,6 +153,27 @@ namespace RecipeInspectorNS
             ? new Color(0.55f, 0.48f, 0.35f, 0.8f)
             : new Color(0.40f, 0.33f, 0.22f, 0.75f);
 
+        // Цвет иконок — автотинтинг под тему
+        public static Color IconColor => TextColor;
+
+        // Цвет иконки для кнопки «активна» (зелёный акцент)
+        public static Color IconAccentColor => DarkTheme
+            ? new Color(0.45f, 0.75f, 0.45f)
+            : new Color(0.15f, 0.50f, 0.20f);
+
+        // Цвет кнопок
+        public static Color BtnColor => DarkTheme
+            ? new Color(0.28f, 0.24f, 0.20f)
+            : ColorManager.instance != null ? ColorManager.instance.ButtonColor : new Color(0.85f, 0.80f, 0.70f);
+
+        public static Color BtnActiveColor => DarkTheme
+            ? new Color(0.35f, 0.55f, 0.35f)
+            : ColorManager.instance != null ? ColorManager.instance.HoverButtonColor : new Color(0.65f, 0.80f, 0.60f);
+
+        public static Color BtnTextColor => DarkTheme
+            ? new Color(0.92f, 0.88f, 0.82f)
+            : ColorManager.instance != null ? ColorManager.instance.ButtonTextColor : new Color(0.12f, 0.08f, 0.04f);
+
         // Font sizes
         public static float F_Title      => 18f * FontMult;
         public static float F_SubTitle   => 12f * FontMult;
@@ -141,19 +186,22 @@ namespace RecipeInspectorNS
 
         public static void ResetDefaults()
         {
-            ShowIcons   = true;
-            FontSizeIdx = 1;
-            MaxVariants = 20;
-            OnlyFound   = false;
-            DarkTheme   = false;
-            OpacityIdx  = 2;
-            AutoHide    = false;
-            KeepOnCraft = false;
+            ShowIcons     = true;
+            FontSizeIdx   = 1;
+            MaxVariants   = 20;
+            OnlyFound     = false;
+            DarkTheme     = false;
+            OpacityIdx    = 2;
+            AutoHide      = false;
+            KeepOnCraft   = false;
             ShowResultRow = true;
             ShowTime      = true;
             DedupVariants = true;
             AutoHideDelay = 3;
-            SavedPos    = new Vector2(-8f, 0f);
+            SavedPos      = new Vector2(-8f, 0f);
+            KeyOpen       = KeyCode.R;
+            KeyPin        = KeyCode.P;
+            KeyHide       = KeyCode.H;
             Save();
         }
 

@@ -1,0 +1,2640 @@
+﻿Term	Notes	Russian
+card_animal_pen_description		Может содержать 5 животных
+card_animal_pen_name		Загон для животных
+card_apple_description		Держит врачей подальше
+card_apple_name		Яблоко
+card_apple_tree_description		Дерево... с яблоками на нем
+card_apple_tree_name		Яблоня
+card_apple_tree_status		Бьет яблоню
+card_bear_description		Мягкий, но опасный
+card_bear_name		Медведь
+card_berry_description		Простая еда, которую можно найти в ягодных кустах
+card_berry_name		Ягода
+card_berrybush_description		Куст с вкусными ягодами
+card_berrybush_name		Ягодный куст
+card_berrybush_status		Собирает ягоды
+card_bone_description		Это факт: Скелеты содержат в себе много такого
+card_bone_name		Кость
+card_brick_description		Прочный строительный материал
+card_brick_name		Кирпич
+card_brickyard_description		Быстро превращает камень в кирпич
+card_brickyard_name		Кирпичный цех
+card_campfire_description		Может быть использован, чтобы приготовить еду, выглядит тепло и уютно
+card_campfire_name		Костер
+card_carrot_description		Самый хрустящий овощ
+card_carrot_name		Морковь
+card_catacombs_description		По слухам, в нем находится таинственный предмет
+card_catacombs_name		Катакомбы
+card_catacombs_status		Исследование катакомб
+card_chicken_description		Так называемый потомок динозавров. Не очень похоже
+card_chicken_name		Курица
+card_cooked_meat_description		Готовится до средней степени прожарки
+card_cooked_meat_name		Приготовленное мясо
+card_corpse_description		Мертвый человек
+card_corpse_name		Труп
+card_cow_description		МУУУУУУУУ!
+card_cow_name		Корова
+card_demon_description		Финальний бос
+card_demon_name		Демон
+card_dog_description		Настоящий лучший друг человечества 
+card_dog_name		Собака
+card_egg_description		Нельзя есть сырым, спасибо сальмонелле
+card_egg_name		Яйцо
+card_explorer_description		Очень быстрый в исследовании локаций, но немного медленнее в других задачах
+card_explorer_name		Исследователь
+card_farm_description		Современное здание для выращивания продуктов питания
+card_farm_name		Ферма
+card_flint_description		Используется для разжигания огня
+card_flint_name		Кремень
+card_forest_description		Причудливое место, которое также содержит монстров
+card_forest_name		Лес
+card_forest_status		Исследование леса
+card_frittata_description		Вкуснятина! Ешьте вилкой
+card_frittata_name		Фритата
+card_fruit_salad_description		Классическая древняя еда
+card_fruit_salad_name		Фруктовый салат
+card_garden_description		Простая постройка для выращивания пищи
+card_garden_name		Сад
+card_giant_rat_description		Большая версия маленькой крысы
+card_giant_rat_name		Гигантская крыса
+card_goblet_description		Мистический объект
+card_goblet_name		Золотой кубок
+card_goblin_description		Монстр с плохой осанкой
+card_goblin_name		Гоблин
+card_gold_description		Лучший друг человечества
+card_gold_name		Монета
+card_graveyard_description		Очень отличается от обычного клада
+card_graveyard_name		Кладбище
+card_graveyard_status		Исследование кладбища
+card_house_description		Приятное место для жизни
+card_house_name		Дом
+card_iron_bar_description		Блестящий, ценный материал
+card_iron_bar_name		Железный слиток
+card_iron_deposit_description		Содержит железную руду
+card_iron_deposit_name		Месторождение железа
+card_iron_deposit_status		Добывающее месторождение
+card_iron_ore_description		Может быть превращена в железные слитки
+card_iron_ore_name		Железная руда
+card_key_description		Интересно для чего это...
+card_key_name		Ключ
+card_kid_description		Ребенок. Нужен дом, чтобы вырасти
+card_kid_name		Ребенок
+card_lumbercamp_description		Бесконечное месторождение дерева
+card_lumbercamp_name		Лесозаготовительный лагерь
+card_lumbercamp_status		Вахтовый поселок
+card_map_description		Используйте карту, чтобы превратить жителя деревни в исследователя
+card_map_name		Карта
+card_market_name		Рынок
+card_militia_name		Воин
+card_milk_description		Только что от коровы
+card_milk_name		Молоко
+card_milkshake_description		Со вкусом ягод
+card_milkshake_name		Молочный коктейль
+card_mountain_description		Холм с заостренным краем
+card_mountain_name		Гора
+card_mountain_status		Исследование горы
+card_mushroom_description		Съедобный гриб
+card_mushroom_name		Гриб
+card_old_tome_description		Книга с некоторыми идеями
+card_old_tome_name		Старый том
+card_old_tome_status		Изучение старого тома
+card_old_village_description		Говорят, что здесь до сих пор живет человек...
+card_old_village_name		Старый поселок
+card_old_village_status		Исследование старого поселка
+card_omelette_description		Гордон Рамзи гордился бы
+card_omelette_name		Омлет
+card_onion_description		Можно есть сырым или можно приготовить, как вам больше нравится
+card_onion_name		Лук
+card_plains_description		Прекрасный вид
+card_plains_name		Равнины
+card_plains_status		Исследование равнин
+card_plank_description		Прочный строительный материал
+card_plank_name		Доска
+card_poop_description		Выглядит вонючим
+card_poop_name		Дерьмо
+card_potato_description		Гладкая и крахмалистая, но ее следует сначала сварить
+card_potato_name		Картофель
+card_quarry_description		Бесконечное месторождение камня
+card_quarry_name		Карьер
+card_quarry_status		Добыча в карьере
+card_rabbit_description		Пушистая машинка по выработке дерьма
+card_rabbit_name		Кролик
+card_rat_description		Маленькая версия гигантской крысы
+card_rat_name		Крыса
+card_raw_meat_description		Стоит сначала приготовить
+card_raw_meat_name		Сырое мясо
+card_rock_description		Выглядит крепко, но легко пробивается
+card_rock_name		Камень
+card_rock_status		Бьет камень
+card_sawmill_description		Быстро перерабатывает дерево в доски
+card_sawmill_name		Лесопильня
+card_shed_description		Повышает ваш лимит карт на 4
+card_shed_name		Сарай
+card_skeleton_description		Монстр, состоящий из набора костей
+card_skeleton_name		Скелет
+card_slime_description		Три маленьких слайма в пальто
+card_slime_name		Слайм
+card_small_slime_description		Наполненный лакомствами
+card_small_slime_name		Маленький слайм
+card_soil_description		Простой и медленный способ выращивания пищи
+card_soil_name		Почва
+card_spear_description		Палочка с заостренным концом
+card_spear_name		Копье
+card_stew_description		Сытный обед
+card_stew_name		Тушеное мясо
+card_stick_description		Раньше была частью дерева
+card_stick_name		Палка
+card_stone_description		Простой ресурс
+card_stone_name		Камень
+card_stove_description		Готовит быстрее, чем костер
+card_stove_name		Плита
+card_sword_description		Железный пруток с заостренным концом
+card_sword_name		Меч
+card_swordsman_name		Мечник
+card_temple_description		Важное место поклонения. Ему нужен таинственный артефакт.
+card_temple_name		Храм
+card_travelling_cart_description		Дай мне 5 монет и я дам тебе карту!
+card_travelling_cart_name		Странствующая тележка
+card_treasure_chest_description		Она замкнута
+card_treasure_chest_name		Сундук с сокровищами
+card_tree_description		Из дерева и палочек
+card_tree_name		Дерево
+card_tree_status		Бьет дерево
+card_villager_description		Трудолюбивый первопроходец
+card_villager_name		Житель деревни
+card_warehouse_description		Увеличивает ваш лимит карт на 14
+card_warehouse_name		Склад
+card_wolf_description		Выглядит зловеще
+card_wolf_name		Волк
+card_wood_description		Простой ресурс
+card_wood_name		Дерево
+cardtype_food		Еда
+cardtype_ideas		Идеи
+cardtype_locations		Локации
+cardtype_mobs		Существа
+cardtype_resources		Ресурсы
+cardtype_structures		Структуры
+idea_animalpen_status_0		Строительство загона для животных
+idea_brick_status_0		Создание кирпича
+idea_brickyard_status_0		Строительство кирпичного завода
+idea_campfire_status_0		Разжигание костра
+idea_carving_status_0		Создание палки
+idea_chicken_status_0		Курица высиживает яйца
+idea_coinchest_status_0		Создание сундука для монет
+idea_cookedmeat_status_0		Приготовление мяса
+idea_farm_status_0		Строительство фермы
+idea_frittata_status_0		Приготовление фриттаты
+idea_fruitsalad_status_0		Приготовление фруктового салата
+idea_garden_status_0		Строительство сада
+idea_growth_name		Садоводство
+idea_growth_status_0		Выращивание ягодного куста
+idea_growth_status_1		Выращивание яблони
+idea_growth_status_2		Выращивание моркови
+idea_growth_status_3		Выращивание лука
+idea_growth_status_4		Выращивание картофеля
+idea_growth_status_5		Выращивание грибов
+idea_house_status_0		Строительство дома
+idea_ironweapons_status_0		Создание меча
+idea_ironweapons_status_1		Тренировка мечника
+idea_lumbercamp_status_0		Строительство лесозаготовительного лагеря
+idea_market_status_0		Строительство рынка	
+idea_milkshake_status_0		Приготовление молочного коктейля
+idea_mine_status_0		Строительство шахты
+idea_offspring_name		Размножение
+idea_offspring_status_0		Создание потомства
+idea_offspring_status_1		Создание щенка
+idea_omelette_status_0		Приготовление омлета
+idea_planks_status_0		Создание досок
+idea_quarry_status_0		Строительство карьера
+idea_sawmill_status_0		Строительство лесопилки
+idea_shed_status_0		Строительство садового сарая
+idea_smelting_status_0		Строительство плавильни
+idea_smelting_status_1		Выплавка железа
+idea_stew_status_0		Приготовление рагу
+idea_stove_status_0		Строительство печи
+idea_temple_status_0		Строительство храма	
+idea_warehouse_status_0		Строительство склада	
+idea_woodenweapons_status_0		Создание копья	
+idea_woodenweapons_status_1		Обучение солдат 
+idea_woodenweapons_status_2		Обучение исследователя
+ideagroup_basic		Основной
+ideagroup_building		Cтроительство	
+ideagroup_cooking		Рецепты кулинарных блюд	
+ideagroup_military		Военные	
+ideagroup_resources		Ресурсы	
+label_an_idea		    Идея	
+label_back		Назад	
+label_back_to_menu		Вернуться к меню	
+label_buy_packs_to_find_idea		Купите пакеты, чтобы найти эту идею	
+label_cant_be_sold		Невозможно продать	
+label_card_not_found		Карта не найдена	
+label_cardopedia	Игровая энциклопедия по картам	Картопедия
+label_cards_found		[found]/[total] карт найдено
+label_cards_infobox		Ваша текущая максимальная сумма карт [max_card_count]. У вас [card_count] [cardicon] (не включает монеты)
+label_cards_infobox_warning		У вас слишком много [cardicon]. Избавьтесь от Карт, иначе в конце Луны вам придется продавать Карты!
+label_clear_save		Очистить сохранение	
+label_clear_save_confirm		Вы уверены, что хотите очистить сохранение?	
+label_coin_infobox_text		Общее количество монет, которое у вас есть	
+label_coin_infobox_title		Монеты	
+label_complete_more_quests		<one>Выполните еще 1 задание, чтобы разблокировать новый пакет!<other>Complete [remaining] more quests to unlock a new Pack!	
+label_complete_more_quests_for_pack		<one>Выполните еще 1 задание, чтобы разблокировать этот пакет!<other>Выполните [remaining] больше заданий, чтобы разблокировать этот пакет!	
+label_completed_main_quest		Вы выполнили главный квест!	
+label_continue		Продолжить	
+label_continue_run		Продолжить забег (Луна [moon])	
+label_credits		Кредиты	
+label_damage		Урон:	
+label_drag_coins_to_buy_pack		Перетащите [cost][goldicon] здесь, чтобы купить этот пакет    	
+label_drop_to_sell		Продать за [value]	
+label_eating		Прием пищи...	
+label_end_of_moon		Конец луны [moon]	
+label_everyone_fed		Все сыты!	
+label_everyone_starved		Все умерли от голода!	
+label_feed_villagers		Накормить жителей деревни	
+label_foil	Термин для описания «блестящей» карты	(foil)	
+label_fullscreen		Полный экран: [on_off]	
+label_game_options		Параметры игры	
+label_game_over		Game Over
+label_goblet_brought_to_temple		Кубок был принесен в Храм	
+label_hit_chance		Вероятность успеха:	
+label_idea_fullname		Идея: [name]	
+label_ideas		Идеи	
+label_ideas_found		[found]/[total] идеи найдены	
+label_keep_playing		Продолжайте играть, чтобы собрать все карты!	
+label_languages_title		Языки	
+label_may_contain		Может содержать:	
+label_moon_length		Длительность Луны	
+label_moon_length_long		Длинная	
+label_moon_length_normal		Обычная	
+label_moon_length_short		Короткая	
+label_moon_length_tooltip		Длительность Луны - длиннее, значит проще	
+label_new		Новое!	
+label_new_cards_found		<one>Найдена 1 новая карта<other>[count] Найдены новые карты	
+label_new_pack_unlocked		Новый пакет разблокирован!	
+label_new_run_confirm		Вы уверены, что хотите начать новый забег? Вы потеряете прогресс в текущем задании!	
+label_nice		Отлично!	
+label_no		Нет	
+label_off		Выкл	
+label_okay		Хорошо	
+label_on		Вкл	
+label_options		Параметры	
+label_pack_now_available		[pack] Пакет теперь доступен!	
+label_paused		Пауза	
+label_peaceful_mode		Мирный режим	
+label_peaceful_mode_tooltip		В мирном режиме нет врагов	
+label_quest		Квест	
+label_quest_completed		Квест выполнен!	
+label_quest_not_possible_in_peaceful		Невозможно в мирном режиме	
+label_quests		Квесты	
+label_quests_completed		<one>1 задание выполнено<other>[count] Выполненные квесты	
+label_quit		Выход
+label_resolution		Разрешение: [width]x[height]	
+label_resolutions_title		Разрешения	
+label_seconds_format		[seconds] сек.
+label_seconds_left_format		Осталось [seconds] сек.	
+label_select_language		Выбор языка	
+label_sell		Продать	
+label_sell_cards_to_continue		Продать карты, чтобы продолжить
+label_sell_x_cards		<one>Продать 1 карту<other>Продать [count] карт	
+label_sellbox_title		Продажа карт	
+label_sfx		SFX
+label_stack_of_cards		Стопка карт	
+label_start_new_moon		Начать новую луну	
+label_start_new_run		Начать новый забег	
+label_start_of_moon		Начать луну [moon]	
+label_start_run		Начать забег	
+label_start_the_ritual		Начать ритуал	
+label_strange_portal_appeared		Появился странный портал	
+label_time_to_eat		Время есть	
+label_timetext		Луна [moon]	
+label_timetext_peaceful		Луна [moon] - Мирный режим	
+label_toggle_panel_title		Переключаемая панель
+label_too_many_cards		<one>У вас на 1 карту больше!<other>У вас [count] Карт слишком много!	
+label_travelling_cart_appeared		Появилась дорожная повозка	
+label_uh_oh		Ох	
+label_undiscovered_cards		<one>1 неоткрытая карта<other>[count] неоткрытых карт	
+label_well_done		Отличная работа!
+label_yes		Да	
+label_you_killed_the_demon		Ты убил демона!	
+label_you_reached_moon		Вы достигли луны [moon]	
+pack_a_new_world_text	Название вашего первого пакета карт	Новый мир	
+pack_cuisine_text	Название набора карт, связанных с кулинарией	Кулинария
+pack_explorers_text	Название набора карт, связанных с исследованием	Исследователи
+pack_farming_text	Название набора карт, связанных с фермерством	Земледелие
+pack_humble_beginnings_text	Название набора карт, связанных с началом	Скромное начало
+pack_logic_reason_text	Название набора карточек, связанных с идеями	Логика и Разум
+pack_order_structure_text	Название набора карточек, связанных с идеями	Порядок и Структура
+pack_seeking_wisdom_text	Название набора карточек, связанных с идеями	В поисках Мудрости
+quest_3_villagers_text		Получите 3 жителей деревни	
+quest_bring_goblet_text		Принесите кубок в храм	
+quest_build_3_houses_text		Имеют 3 дома	
+quest_build_farm_text		Постройте ферму	
+quest_build_house_text		Постройте дом	
+quest_build_temple_text		Постройте храм
+quest_buy_booster_text	Имя, используемое в "pack_a_new_world_text" ключ Купить набор "Скромное начало" 	Купить набор «Скромное начало»
+quest_buy_from_travelling_cart_text		Купить что-нибудь в тележке путешественника	
+quest_carve_stick_text		Сделайте палку из дерева	
+quest_cook_frittata_text		Приготовьте фриттату	
+quest_cook_meat_text		Готовьте сырое мясо	
+quest_cook_omelette_text		Приготовьте омлет	
+quest_create_brickyard_text		Постройте кирпичный двор	
+quest_create_lumbercamp_text		Постройте лагерь для лесорубов	
+quest_create_offspring_text		Создать потомство	
+quest_create_quarry_text		Постройте карьер	
+quest_create_shed_text		Постройте сарай	
+quest_explore_forest_text		Исследуйте лес	
+quest_explore_mountain_text		Исследуйте гору	
+quest_find_catacombs_text		Найдите катакомбы	
+quest_find_goblet_text		Найдите таинственный артефакт
+quest_find_graveyard_text		Найти кладбище	
+quest_get_a_dog_text		Заведите собаку	
+quest_get_iron_bar_text		Приобретите железный слиток	
+quest_have_gold_text		[count] Монет
+quest_have_10_ideas_text		10 идей	
+quest_have_10_stone_text		10 камней	
+quest_have_10_wood_text		10 дерева	
+quest_have_food_text		[count] еды	
+quest_have_5_ideas_text		5 идей	
+quest_kill_a_rat_text		Убить крысу	
+quest_kill_a_skeleton_text		Убить скелета	
+quest_kill_demon_text		Убить демона	
+quest_open_starter_pack_text		Откройте бустер пакет	
+quest_open_treasure_chest_text		Откройте сундук с сокровищами	
+quest_pick_berrybush_text		Перетащите жителя деревни на ягодный куст	
+quest_reach_month_text		Достичь Луны [count]
+quest_second_villager_text		Получите второго жителя деревни
+quest_sell_at_market_text		Продайте карту на рынке	
+quest_sell_card_text		Продать карту	
+quest_start_campfire_text		Разведите костер	
+quest_train_explorer_text		Обучение исследователя	
+quest_train_militia_text		Обучить война	
+quest_unlock_all_packs_text		Разблокируйте все пакеты	
+new_creating_graveyard		Создание кладбища	
+new_selling_card		Продать [card]
+new_portal_shaking		Портал дрожит	
+new_growing_up		Взросление	
+card_aquarium_description		Вмещает 5 рыб	
+card_aquarium_name		Аквариум	
+card_banana_description		Всеми любимый желтый фрукт	
+card_banana_name		Банан	
+card_banana_tree_description		Сделано из бананов	
+card_banana_tree_name		Банановое дерево	
+card_banana_tree_status		Удар по банановому дереву	
+card_boat_status		Отплытие	
+card_bottle_of_rum_description		Осторожно: спаивает жителей деревни!	
+card_bottle_of_rum_name		Бутылка рома	
+card_bottle_of_water_description		Прозрачная бутылка, наполненная прозрачной жидкостью	
+card_bottle_of_water_name		Бутылка воды	
+card_captain_description		Будучи экспертом в морских путешествиях, он уплывает быстрее всех 
+card_captain_name		Капитан	
+card_cathedral_description		Важное место поклонения. Ему нужна реликвия
+card_cathedral_name		Кафедральный собор	
+card_cave_description		Пираты хранили свои карты сокровищ в таких...	
+card_cave_name		Пещера	
+card_cave_status		Исследование пещеры	
+card_ceviche_description		Маринованная рыба в лаймовом соке	
+card_ceviche_name		Севиче	
+card_charcoal_description		Действует как противоядие от змеиного яда	
+card_charcoal_name		Древесный уголь	
+card_chili_pepper_description		Приятный и острый	
+card_chili_pepper_name		Перец чили	
+card_coconut_description		Это фрукт, а не орех!	
+card_coconut_name		Кокос	
+card_coconut_piece_description		Тропический!	
+card_coconut_piece_name		Кусочек кокоса	
+card_coconut_tree_description		Изготовлено из кокосового ореха	
+card_coconut_tree_name		Кокосовое дерево	
+card_coconut_tree_status		Кокосовое дерево для пробивания отверстий	
+card_cod_name		Треска		
+card_coin_chest_description		Сундук, в котором можно хранить монеты	
+card_coin_chest_name		Сундук с монетами	
+card_composter_description		Превращает 5 продуктов в почву	
+card_composter_name		Компостер	
+card_cooked_crab_meat_description		Это шикарно	
+card_cooked_crab_meat_name		Приготовленный краб	
+card_cooked_fish_description		Я чувствую вкус следов гриля	
+card_cooked_fish_name		Рыба на гриле	
+card_cotton_description		Шерсть природы	
+card_cotton_name		Хлопок	
+card_cotton_plant_description		Можно собирать урожай хлопка	
+card_cotton_plant_name		Хлопчатник	
+card_cotton_plant_status		Сбор урожая хлопчатника
+card_crab_description		Почему все эволюционирует в крабов?	
+card_crab_name		Краб	
+card_demon_lord_description		Последний, последний босс!	
+card_demon_lord_name		Владыка демонов	
+card_distillery_description		Используется для изготовления спиртного	
+card_distillery_name		Винокурня	
+card_driftwood_description		Куча дерева, выброшенная на берег	
+card_driftwood_name		Дрейфующая древесина	
+card_driftwood_status		Рыться в выброшенных на берег деревяшках	
+card_eel_description		Электрическая морская змея	
+card_eel_name		Угорь-сапер	
+card_empty_bottle_description		Изготовлен из стекла. Можно наполнять!	
+card_empty_bottle_name		Пустая бутылка	
+card_fabric_description		Волокна. вместе. крепкие.	
+card_fabric_name		Ткань	
+card_fish_trap_description		В качестве приманки нужен вид пищи	
+card_fish_trap_name		Ловушка для рыбы	
+card_fish_trap_status		Ловля рыбы	
+card_fisher_description		Эксперт по рыбной ловле. Рыба боится его	 
+card_fisher_name		Рыболов	
+card_fishing_rod_description		Отдайте его жителю деревни, чтобы превратить его в рыболова	
+card_fishing_rod_name		Рыболовная удочка	
+card_fishing_spot_description		Водоем, наполненный рыбой	
+card_fishing_spot_name		Рыболовное место	
+card_fishing_spot_status		Рыболовство	
+card_friendly_pirate_description		Он перешел на вашу сторону	
+card_friendly_pirate_name		Дружелюбный пират	
+card_frigate_description		Может нести 25 карт. Чтобы начать плавание, нужен житель деревни. Не может переносить здания	
+card_frigate_name		Фрегат	
+card_glass_description		Прозрачный ресурс	
+card_glass_name		Стекло	
+card_gold_bar_description		Очень блестящий, очень ценный материал	
+card_gold_bar_name		Золотой слиток	
+card_gold_deposit_description		В нем содержится золотая руда	
+card_gold_deposit_name		Месторождение золота	
+card_gold_deposit_status		Добыча золота	
+card_gold_mine_description		Неограниченный ресурс золотой руды	
+card_gold_mine_name		Золотая шахта	
+card_gold_mine_status		Работа в золотом руднике	
+card_gold_ore_description		Можно превратить в золотые слитки	
+card_gold_ore_name		Золотая руда	
+card_goop_description		Смесь, осадок, грязь: это испорченная еда	
+card_goop_name		Липкая масса	
+card_greenhouse_description		Высокотехнологичное здание для выращивания продуктов питания. Автоматически пересаживает посевы	
+card_greenhouse_name		Теплица	
+card_island_relic_description		Принесите ее в собор	
+card_island_relic_name		Островная реликвия	
+card_jungle_description		Лес, известный благодаря книгам	
+card_jungle_name		Джунгли	
+card_jungle_status		Исследование джунглей	
+card_kraken_description		Злится, что вы взяли его реликвию	
+card_kraken_name		Кракен	
+card_lime_description		Круглый и кислый	
+card_lime_name		Лайм	
+card_mackerel_name		Скумбрия	
+card_mess_hall_description		Деревенские жители будут отдавать предпочтение еде, находящейся на вершине столовой
+card_mess_hall_name		Зал ожидания	
+card_message_in_a_bottle_description		Кажется, в нем есть идея	
+card_message_in_a_bottle_name		Послание в бутылке	
+card_message_in_a_bottle_status		Открыть бутылку	
+card_mine_description		Неограниченные запасы железной руды	
+card_mine_name		Железный рудник	
+card_mine_status		Работа в железной шахте
+card_momma_crab_description		Может, не стоило убивать тех крабов?	
+card_momma_crab_name		Мама-краб	
+card_monkey_description		Очень хотелось бы получить банан	
+card_monkey_name		Обезьяна	
+card_parrot_description		Говорит как человек, летает как птица. Делает пиратов счастливыми	
+card_parrot_name		Попугай	
+card_pirate_boat_description		Лодка, полная пиратов	
+card_pirate_boat_name		Пиратская лодка	
+card_pirate_boat_status		Мы оставим вас в покое за [count] монет..	
+card_pirate_description		Грузный сердитый моряк	
+card_pirate_name		Пират	
+card_raw_crab_meat_description		Перед употреблением следует проварить	
+card_raw_crab_meat_name		Сырое крабовое мясо	
+card_raw_fish_description		Он скользкий
+card_raw_fish_name		Сырая рыба
+card_rope_description		Длинный и волокнистый
+card_rope_name		Веревка	
+card_rowboat_description		Может нести 1 карту. Чтобы начать плавание, нужен житель деревни. Не может переносить здания
+card_rowboat_name		Гребная лодка	
+card_sacred_chest_description		Чтобы открыть его, нужен Священный ключ
+card_sacred_chest_name		Священный сундук	
+card_sacred_key_description		Выкован из стекла и золота. Используется для открытия Священного ларца
+card_sacred_key_name		Священный ключ	
+card_sail_description		Используется для изготовления лодок	
+card_sail_name		Парус	
+card_sand_description		Главный ингредиент для хорошего пляжа	
+card_sand_name		Песок	
+card_sand_quarry_description		Неограниченный ресурс песка	
+card_sand_quarry_name		Песчаный карьер	
+card_sand_quarry_status		Добыча в песчаном карьере
+card_sandstone_description		Альтернатива камню. Может использоваться для всего, для чего нужен камень
+card_sandstone_name		Песчаник	
+card_seafood_stew_description		Вкусное островное рагу	
+card_seafood_stew_name		Рагу из морепродуктов	
+card_seagull_description		Сердитая птица	
+card_seagull_name		Чайка	
+card_seaweed_description		Морской салат	
+card_seaweed_name		Морские водоросли	
+card_shark_description		Вид большой сердитой рыбы	
+card_shark_name		Акула	
+card_sheep_description		Пушистик!
+card_sheep_name		Овцы	
+card_shell_chest_description		Сундук, в котором можно хранить ракушки	
+card_shell_chest_name		Сундук с ракушками	
+card_shell_description		Основная валюта на острове	
+card_shell_name		Ракушка	
+card_sloop_description		Может нести 10 карт. Чтобы начать плавание, нужен житель деревни. Не может переносить здания	
+card_sloop_name		Шлюп	
+card_smelter_description		Перерабатывает различные материалы путем их плавления	
+card_smelter_name		Плавильная печь	
+card_smelter_status		Плавка	
+card_snake_description		Ползучее, ядовитое существо	
+card_snake_name		Змея	
+card_sugar_cane_description		Это трава со вкусом конфет	
+card_sugar_cane_name		Сахарный тростник	
+card_sugar_cane_status		Сбор урожая сахарного тростника	
+card_sugar_description		Очень сладко!	
+card_sugar_name		Тростниковый сахар	
+card_sushi_description		Вкусное угощение	
+card_sushi_name		Суши	
+card_tamago_sushi_description		Суши со вкусом яиц	
+card_tamago_sushi_name		Тамаго Суши	
+card_tentacle_description		Вихляй, вихляй, вихляй	
+card_tentacle_name		Щупальце	
+card_tiger_description		Очень сильная кошка	
+card_tiger_name		Тигр	
+card_trained_monkey_description		Может помочь вам по хозяйству. Превращается в обычную обезьяну в конце Луны	
+card_trained_monkey_name		Дрессированная обезьяна
+card_treasure_map_description		Х отмечает место. Его нужно искать вместе с жителем деревни
+card_treasure_map_name		Карта сокровищ	
+card_treasure_map_status		В поисках сокровищ	
+card_tuna_name		Тунец	
+card_wool_description		Мягкий ресурс	
+card_wool_name		Шерсть	
+cardtype_fish		Рыба	
+cardtype_rumors		Слухи	
+empty	Intentionally left blank												
+idea_aquarium_status_0		Строительство аквариума
+idea_befriending_pirate_status		Подружиться с пиратом	
+idea_bottle_status_0		Изготовление бутылки	
+idea_cathedral_status_0		Строительный собор	
+idea_ceviche_status		Приготовление севиче	
+idea_charcoal_status		Изготовление древесного угля	
+idea_charcoal_status_0		Изготовление древесного угля	
+idea_compass_status		Изготовление компаса	
+idea_composter_status		Строительный компостер	
+idea_composting_status		Компостирование	
+idea_cooked_crab_meat_status_0		Приготовление крабового мяса	
+idea_cooked_fish_status_0		Рыба-гриль	
+idea_cracking_coconut_status		Раскалывание кокосового ореха	
+idea_distillery_status		Строительство винокурни	
+idea_eating_charcoal		Устранение яда	
+idea_fabric_status		Изготовление ткани	
+idea_filling_bottle_of_water		Заправочная бутылка	
+idea_fish_trap_status		Строительство ловушки для рыбы	
+idea_fishing_rod_status		Изготовление рыболовной удочки	
+idea_frigate_status0		Строительство фрегата	
+idea_greenhouse_status_0		Строительство теплицы	
+idea_growth_name_status_10		Выращивание перца чили	
+idea_growth_name_status_9		Выращивание лайма	
+idea_growth_status_6		Выращивание бананового дерева	
+idea_growth_status_7		Выращивание кокосового дерева	
+idea_growth_status_8		Выращивание хлопчатника		
+idea_mess_hall_status		Здание столовой	
+idea_rope_status		Изготовление веревки	
+idea_rowboat_status0		Постройка гребной лодки	
+idea_rum_status		Изготовление рома	
+idea_sacred_key_status0		Ковка священного ключа	
+idea_sail_status0		Изготовление паруса	
+idea_sand_quarry_status		Карьер строительного песка	
+idea_sandstone_status		Создание песчаника	
+idea_seafood_stew_status_0		Приготовление рагу из морепродуктов	
+idea_shell_chest_status_0		Изготовление сундука из ракушек	
+idea_sloop_status0		Постройка шлюпа	
+idea_smelting_glass_status		Создание стекла	
+idea_smelting_status_2		Выплавка золота	
+idea_smelting_status_3		Изготовление монеты	
+idea_sushi_status		Приготовление суши	
+idea_tamago_sushi_status		Приготовление суши тамаго	
+idea_training_captain_status		Обучение капитана	
+idea_training_fisher_status		Обучение рыболова	
+idea_training_monkey_status		Дрессированная обезьянка	
+ideagroup_fishing		Рыбная ловля 
+ideagroup_important		Важно	
+ideagroup_island		Остров	
+ideagroup_sailing		Морской флот	
+label_a_rumor		Слухи	
+label_awakened_something		Вы пробудили что-то...	
+label_awakened_the_kraken		Это Кракен!	
+label_card_cap		Карточный колпачок	
+label_complete_more_island_quests_for_pack		<one>Выполните еще 1 квест на острове, чтобы разблокировать этот пакет!<other>Complete [remaining] more Island Quests to unlock this Pack!	
+label_everyone_on_island_dead		Все на острове погибли	
+label_everyone_on_island_dead_text		Ваши карточки останутся здесь, когда вы вернетесь
+label_island_intro_1		Добро пожаловать на остров	
+label_island_intro_2		Находясь на острове, вам не придется заботиться о материке
+label_island_intro_3		Вы можете вернуться на материк в любое время, используя гребную лодку
+label_island_intro_4		Гребная лодка может перевозить только одну карту - другие лодки позволяют перевозить больше карт туда и обратно
+label_island_intro_5		Если все ваши жители погибнут, вы будете возвращены на материк
+label_island_intro_6		Удачи!	
+label_island_intro_pack_text		За победу над демоном вы получаете набор	
+label_island_intro_pack_title		Отлично!	
+label_island_intro_title		Остров!	
+label_join_our_discord		Присоединяйтесь к нашему Discord	
+label_main_quests		Основные задания	
+label_momma_crab_appeared_text		Она кажется злой...	
+label_momma_crab_appeared_title		Мама-краб 
+label_no_ideas_yet		Вы еще не нашли ни одной идеи
+label_one_villager_needs_to_stay		Хотя бы один житель деревни должен остаться на материке
+label_pirate_boat_appeared		Появилась пиратская лодка	
+label_quests_complete_more_to_see		Выполните больше заданий, чтобы увидеть следующие	
+label_return_to_mainland		Возвращение на материк	
+label_rumor_full		Слухи: [name]	
+label_sailing_off_title		Отплытие	
+label_save_game		<b>Сохранить [save_index]</b> - [percentage] complete - last played [date]	
+label_save_games		Сохранить игру	
+label_select_save		Выберите Сохранить	
+label_side_quests		Побочные квесты	
+label_start_new_save		<b>Сохранить [save_index]</b> - создать новое сохранение	
+label_status_effect		Статус: [status]	
+label_time		Время	
+label_you_killed_the_demon_lord		Вы убили Повелителя демонов
+pack_island_advanced_text		Продвинутый архипелаг	
+pack_island_cooking_text		Гриль и пивоварение	
+pack_island_ideas1_text		Остров идей	
+pack_island_ideas2_text		Познание острова	
+pack_island_intro_text		Остров?	
+pack_island_locations_text		Исследователи анклава	
+pack_island1_text		Свежий остров	
+pack_island2_text		На берегу	
+quest_befriend_a_pirate_text		Подружитесь с пиратом	
+quest_bribe_pirate_boat_text		Подкупить пирата 
+quest_build_cathedral_text		Постройте собор на материке	
+quest_build_composter_text		Постройте компостер	
+quest_build_fish_trap_text		Постройте ловушку для рыбы	
+quest_build_greenhouse_text		Постройте теплицу	
+quest_build_mess_hall_text		Постройте зал для занятий	
+quest_build_rowboat_text		Постройте гребную лодку	
+quest_build_sloop_text		Постройте шлюп	
+quest_catch_a_fish_text		Поймать рыбу	
+quest_cook_crab_meat_text		Приготовьте крабовое мясо	
+quest_crack_coconut_text		Расколоть кокосовый орех	
+quest_cure_poison_text		Вылечить отравленного жителя деревни	
+quest_drunk_villager_text		Напоить жителя деревни	
+quest_find_treasure_map_text		Найдите карту сокровищ	
+quest_find_treasure_text		Найти сокровища	
+quest_forge_sacred_key_text		Выковать Священный ключ	
+quest_get_2_bananas_text		Получите 2 банана	
+quest_have_shells_text		Есть [count] ракушек	
+quest_island_relic_to_cathedral_text		Принесите островную реликвию в собор	
+quest_kill_demon_lord_text		Убить повелителя демонов	 
+quest_kill_kraken_text		Убить Кракена	
+quest_kill_momma_crab_text		Убить мамочку-краба 
+quest_make_ceviche_text		Приготовьте севиче	
+quest_make_fish_trap_text		Сделайте ловушку для рыбы	
+quest_make_glass_text		Сделать стекло	
+quest_make_gold_bar_text		Сделайте золотой слиток	
+quest_make_rope_text		Сделайте веревку	
+quest_make_rum_text		Сделайте бутылку рома	
+quest_make_sail_text		Сделать парус	
+quest_make_sandstone_text		Сделайте песчаник	
+quest_make_seafood_stew_text		Приготовление рыбного супа	
+quest_make_sushi_text		Приготовьте суши	
+quest_open_message_in_a_bottle_text		Открыть послание в бутылке	
+quest_open_sacred_chest_text		Откройте священный ларец	
+quest_poisoned_villager_text		Отравленный житель деревни	
+quest_punch_driftwood_text		Выдолбите немного дерева	
+quest_train_a_fisher_text		Обучение рыболова	
+quest_train_captain_text		Обучить капитана	
+quest_unlock_all_island_packs_text		Разблокируйте все островные пакеты	
+questgroup_building		Строительство	
+questgroup_cooking		Потлак	
+questgroup_exploration		Открытие	
+questgroup_fighting		Сила и мастерство	
+questgroup_island		Островные амбиции	
+questgroup_island_beginnings		Брошенный	
+questgroup_island_combat		Встречи в Энклаве	
+questgroup_island_cooking		Островная трапеза		
+questgroup_island_mainquest		Тайна острова	
+questgroup_island_misc		Остров Другой	
+questgroup_mainquest		Грандиозная схема	
+questgroup_other		Другие	
+questgroup_resources		Пути и средства	
+questgroup_starter		Добро пожаловать	
+questgroup_survival		Долголетие	
+rumor_eel_bait_description		При использовании ловушки для рыбы, банан можно использовать для ловли 
+rumor_eel_bait_name		Приманка для угря	
+rumor_island_description		На острове можно найти золото и стекло	
+rumor_island_name		Остров	
+rumor_shark_bait_description		При использовании ловушки для рыбы, сырое мясо можно использовать для ловли акулы
+rumor_shark_bait_name		Приманка для акул	
+rumor_tuna_bait_description		При использовании ловушки для рыбы, известь можно использовать для ловли тунца	
+rumor_tuna_bait_name		Приманка для тунца	
+statuseffect_drunk_description		Уменьшает скорость работы, уменьшает шанс попадания, увеличивает максимальный урон	
+statuseffect_drunk_lore		Наслаждайтесь со всей ответственностью	
+statuseffect_drunk_name		Пьяный	
+statuseffect_poison_description		Наносит урон каждые 60 секунд	
+statuseffect_poison_lore		По их венам течет опасный яд, и им нужно как можно скорее найти противоядие	
+statuseffect_poison_name		Отравленный	
+statuseffect_spoiling_description		Превратится в гопа после 1 луны	
+statuseffect_spoiling_lore		Слишком долго простоял на солнце	
+statuseffect_spoiling_name		Баловство	
+statuseffect_stunned_description		Невозможность атаковать в течение 5 с	
+statuseffect_stunned_lore		Это было очень больно...
+statuseffect_stunned_name		Ошеломленный	
+statuseffect_wellfed_description		Повышает скорость работы	
+statuseffect_wellfed_lore		Сытная трапеза пошла им на пользу	
+statuseffect_wellfed_name		Хорошо кормят	
+label_sailing_off_full		Отплытие	
+language_dutch		Dutch	
+language_french		French	
+language_german		German	
+language_italian		Italian
+language_polish		Polish	
+language_spanish		Spanish	
+credits_aran		Концепция, программирование, дизайн	
+credits_lisa		Игровое искусство	
+credits_sokpop		Game by Sokpop	
+credits_local_heroes		Локализация	
+credits_special_thanks		Особая благодарность	
+label_relic_brought_to_cathedral		Реликвия была доставлена в собор	
+label_controls		Controls	
+control_time_1		1x Speed	
+control_time_2		5x Speed	
+control_time_3		0x Speed	
+control_time_pause		Время паузы	
+control_panel_collapse		Переключить боковую панель	
+control_zoom		Зум	
+control_sell		Продать карту	
+control_time_toggle		Время переключения	
+control_pause		Поставить игру на паузу	
+control_grab		Grab	
+control_activate_UI		Activate UI	
+control_move		Move	
+control_snap_move		Snap Move	
+control_snap_cards		Snap Cards To Grid	
+label_keyboard_mouse		Keyboard & Mouse	
+label_controller		Controller	
+label_waiting_for_input		Waiting for input	
+label_sellbox_description		Перетащите карты сюда, чтобы продать их. Вы также можете использовать [action_sell] чтобы продать карты
+label_toggle_panel_text	Теперь элементы управления могут быть переброшены, так что параметры будут заменены соответствующей клавишей	Нажмите эту кнопку или нажмите [action_panel_collapse] чтобы переключить вкладку «Квесты и идеи»	
+label_auto_pause_controller		Автоматическое приостановление времени при перетаскивании карт (controller):	
+label_auto_pause_keyboardmouse		Автоматическое приостановление времени при перетаскивании карт (keyboard):	
+label_binding	Используется при перепривязывании элемента управления к клавише Назначение [control]	Назначить [control]
+label_accessibility		Доступность	
+language_portuguese		Brazilian 	
+language_chinese		Chinese	
+language_japanese		Japanese
+language_korean		Korean	
+label_progress_stored		Прогресс будет сохранен	
+label_go_to_island_prompt		Вы уверены, что хотите отправиться на остров? Это позволит сначала завершить текущую луну и накормить жителей деревни	
+label_return_to_mainland_prompt		Вы уверены, что хотите вернуться на материк? Это позволит сначала завершить текущую Луну и накормить ваших жителей	
+label_not_enough_food_before_sailing		Прежде чем отправиться в плавание, вам нужно запастись достаточным количеством еды для жителей деревни
+idea_growth_status_11		Выращивание морских водорослей	
+card_market_description		Можно использовать для продажи карт дороже, чем обычно	
+attackdamage_veryweak		Очень слабый	
+attackdamage_weak		Слабый	
+attackdamage_normal		Нормальный	
+attackdamage_strong		Сильный	
+attackdamage_verystrong		Очень сильный	
+attackdamage_extremelystrong		Чрезвычайно сильный	
+attackspeed_veryslow		Очень медленно	
+attackspeed_slow		Медленный	
+attackspeed_normal		Нормальный	
+attackspeed_fast		Быстрый	
+attackspeed_veryfast		Очень быстрый	
+attackspeed_extremelyfast		Чрезвычайно быстрый	
+card_amulet_of_forest_description		Вы чувствуете, как через вас проходит целебная сила природы
+card_amulet_of_forest_name		Лесной амулет
+card_amulet_of_mountain_description		Это дает вам основу	
+card_amulet_of_mountain_name		Амулет горы	
+card_archer_description		Боится подойти слишком близко	
+card_archer_name		Лучник	
+card_axe_description		Для рубки дров и монстров	
+card_axe_name		Топор
+card_bear_claw_description		Дешевая подделка росомахи	
+card_bear_claw_name		Медвежий коготь	
+card_blowpipe_description		Дуй изо всех сил	
+card_blowpipe_name		Труба для дыхания
+card_blunderbuss_description		Осторожно! Может взорваться в вашем собственном лице
+card_blunderbuss_name		Мушкетон
+card_bone_spear_description		Устрашающая версия обычного копья	
+card_bone_spear_name		Костяное копье	
+card_bone_staff_description		Кость с особыми способностями	
+card_bone_staff_name		Костяной посох	
+card_boomerang_description		Всегда возвращается к тебе	
+card_boomerang_name		Бумеранг	
+card_bow_description		Позволяет почувствовать себя Робин Гудом	
+card_bow_name		Лук	
+card_broken_bottle_description		Подготовлен для работы		
+card_broken_bottle_name		Разбитая бутылка	
+card_builder_description		Быстрее строит	
+card_builder_name		Строитель	
+card_bunny_hat_description		Это восхитительно!	
+card_bunny_hat_name		Шляпа кролика	
+card_chainmail_armor_description		Классика средневековой эпохи	
+card_chainmail_armor_name		Цепной доспех	
+card_club_description		Не используется для игры в бейсбол	
+card_club_name		Клуб	
+card_crab_scale_armor_name		Доспехи из чешуи краба	
+card_crossbow_description		Пистолет для стрел	
+card_crossbow_name		Арбалет	
+card_dark_amulet_description		Его темная сила делает вас сильнее	
+card_dark_amulet_name		Темный амулет	
+card_dark_elf_description		Эмо-версия обычного эльфа	
+card_dark_elf_name		Темный эльф	
+card_demon_sword_description		Превосходный клинок, которым пользовался сам Демон	
+card_demon_sword_name		Демонический меч
+card_elf_archer_description		Эльфы - лучшие лучники	
+card_elf_archer_name		Эльф-лучник	
+card_elf_description		Больше не работает на Санта-Клауса	
+card_elf_name		Эльф	
+card_enchanted_shroom_description		Это волшебный гриб	
+card_enchanted_shroom_name		Зачарованный гриб	
+card_ent_description		Говорящее и ходячее дерево	
+card_ent_name		Энт
+card_feral_cat_description		Есть ли у него бешенство? Возможно!	
+card_feral_cat_name		Дикая кошка	
+card_fire_cloak_description		Он светится	
+card_fire_cloak_name		Огненный плащ	
+card_frog_helmet_description		Наделяет вас лягушачьими способностями	
+card_frog_helmet_name		Лягушачий шлем	
+card_frog_man_description		Человек из лягушек	
+card_frog_man_name		Человек-лягушка	
+card_ghost_description		Проявляется только на фотографиях низкого качества	
+card_ghost_name		Призрак	
+card_giant_snail_description		Французы сошли бы с ума от этого	
+card_giant_snail_name		Гигантская улитка 	
+card_goblin_archer_description		Более талантливый обычный гоблин	
+card_goblin_archer_name		Гоблин-лучник	
+card_goblin_hat_description		Гоблинская мода устарела	
+card_goblin_hat_name		Шляпа гоблина	
+card_goblin_shaman_description		Радует других гоблинов	
+card_goblin_shaman_name		Гоблин-шаман	
+card_gold_chestplate_description		Немного переборщили с одеждой для этого мероприятия	
+card_gold_chestplate_name		Золотой нагрудник	
+card_hammer_description		Медленная и тупая, но с сильным ударом	
+card_hammer_name		Молоток	
+card_helmet_description		Надевается на голову. Отлично подходит для езды на велосипеде	
+card_helmet_name		Шлем	
+card_horned_helmet_description		Пригодится для сильных ударов головой	
+card_horned_helmet_name		Шлем с рогами	
+card_iron_shield_description		Надежная защита от сильных ударов	
+card_iron_shield_name		Железный щит	
+card_kraken_tooth_axe_description		Оставили для зубной феи, а вы забрали	
+card_kraken_tooth_axe_name		Топор Зуб Кракена	
+card_leather_tunic_description		Доспехи из лучшей кожи	
+card_leather_tunic_name		Кожаная туника	
+card_lumberjack_description		Значительно быстрее собирает древесину	
+card_lumberjack_name		Дровосек	
+card_mage_description		Волшебник после окончания школы	
+card_mage_name		Маг	
+card_magic_blade_description		Обычный меч, который сверкает	
+card_magic_blade_name		Волшебный клинок	
+card_magic_broom_description		Ты взял это у какой-то старушки	
+card_magic_broom_name		Волшебная метла	
+card_magic_dust_description		Похоже на блестки	
+card_magic_dust_name		Волшебная пыль	
+card_magic_ring_description		Надетая на палец, она наделяет вас магическими способностями	
+card_magic_ring_name		Волшебное кольцо	
+card_magic_staff_description		Длинный заколдованный жезл	
+card_magic_staff_name		Волшебный посох 	
+card_magic_tome_description		Старая книга с заклинаниями	
+card_magic_tome_name		Магическая книга	
+card_magic_wand_description		Простое магическое оружие	
+card_magic_wand_name		Волшебная палочка	
+card_merman_description		Наполовину человек, наполовину мер	
+card_merman_name	Это мужская версия русалки	Тритон
+card_mimic_description		Это чуть не заставило меня	
+card_mimic_name		Мимик	
+card_miner_description		Намного быстрее добывать камень, золото и железо	
+card_miner_name		Шахтер	
+card_morning_star_description		Шипы на палке	
+card_morning_star_name		Утренняя звезда	
+card_mosquito_description		Он даже ненавидит себя	
+card_mosquito_name		Москит	
+card_ninja_description		Бесшумный и смертоносный	
+card_ninja_name		Ниндзя	
+card_ogre_description		Большой и крупный	
+card_ogre_name		Огр	
+card_orc_wizard_description		Средний и зеленый	
+card_orc_wizard_name		Орк-волшебник	
+card_pickaxe_description		Палка с двумя острыми концами	
+card_pickaxe_name		Кирка	
+card_pirate_hat_description		Пригодится для нарядных вечеринок	
+card_pirate_hat_name		Пиратская шляпа	
+card_pirate_sword_description		Предназначен для любителей фехтования	
+card_pirate_sword_name		Пиратская сабля	
+card_quiver_description		Делает вас более эффективным	
+card_quiver_name		Колчан	
+card_rat_crown_description		Превратитесь в короля крыс	
+card_rat_crown_name		Крысиная корона	
+card_skull_helmet_description		Непорядок	
+card_skull_helmet_name		Шлем с черепом	
+card_slingshot_description		Очень неточно бросайте камни во врагов	
+card_slingshot_name		Рогатка	
+card_smithy_description		Здание, используемое для создания лучшего оружия	
+card_smithy_name		Кузница	
+card_spiked_plank_description		Для крепких строителей	
+card_spiked_plank_name		Планка с шипами	
+card_stable_portal_name		Стабильный портал	
+card_stable_portal_status		Вход в портал	
+card_staff_of_fear_description		Очень страшно!!!	
+card_staff_of_fear_name		Посох страха	
+card_strange_portal_description		Выглядит угрожающе. Интересно, сможем ли мы войти в него?	
+card_strange_portal_name		Странный портал	
+card_throwing_star_description		Быстрые и точные, они нравятся ниндзя	
+card_throwing_star_name		Метание звезд	
+card_tiger_fur_coat_description		Непристойно, но по крайней мере заставляет почувствовать себя сильным	
+card_tiger_fur_coat_name		Шуба из тигрового меха	
+card_warrior_description		Деревенский житель, который ходит в спортзал	
+card_warrior_name		Воин	
+card_wicked_witch_description		Она мне больше нравилась, когда была обычной старушкой.	
+card_wicked_witch_name		Злая ведьма	
+card_wicked_witch_name_2		Старая леди	
+card_wizard_description		Деревенский житель с блестками	
+card_wizard_name		Волшебник	
+card_wizard_robe_description		Это как волшебная обновка
+card_wizard_robe_name		Мантия волшебника	
+card_wolf_head_description		Идеально для фурри	
+card_wolf_head_name		Голова волка	
+card_wooden_shield_description		Базовая защита от сильных ударов	
+card_wooden_shield_name		Деревянный щит	
+cardtype_equipable		Оборудование	
+control_toggle_inventory		Открытый инвентарь	
+credits_wouter		Программирование		
+defence_veryweak		Очень слабый	
+defence_weak		Слабый	
+defence_normal		Нормальный	
+defence_strong		Сильный	
+defence_verystrong		Очень сильный	
+defence_extremelystrong		Очень сильный	
+hitchance_verysmall		Очень маленький	
+hitchance_small		Маленький	
+hitchance_normal		Нормальный	
+hitchance_high		Высокий	
+hitchance_veryhigh		Очень высокий	
+hitchance_extremelyhigh		Чрезвычайно высокий	
+idea_amulet_of_forest_status_0		Изготовление Амулета леса		
+idea_amulet_of_mountain_status_0		Изготовление Амулета горы	
+idea_axe_status_0		Создание топора	
+idea_blowpipe_status_0		Создание дыхательной трубки	
+idea_blunderbuss_status_0		Создание мушкетона	
+idea_bone_spear_status_0		Создание костяного копья
+idea_bone_staff_status_0		Создание костяного посоха	
+idea_boomerang_status_0		Создание бумеранга	
+idea_bow_status_0		Создание лука	
+idea_broken_bottle_status_0		Разбить бутылку	
+idea_chainmail_armor_status_0		Создание доспехов из цепного полотна	
+idea_club_status_0		Создание клуба	
+idea_crossbow_status_0		Создание арбалета	
+idea_gold_chestplate_status_0		Кузнечное дело	
+idea_growth_status_12		Выращивание сахарного тростника	
+idea_hammer_status_0		Создание молотка	
+idea_iron_shield_status_0		Изготовление железного щита
+idea_magic_blade_status_0		Создание волшебного клинка	
+idea_magic_ring_status_0		Создание волшебного кольца	
+idea_magic_staff_status_0		Создание волшебного посоха	
+idea_magic_tome_status_0		Создание магического тома	
+idea_magic_wand_status_0		Создание волшебной палочки	
+idea_pickaxe_status_0		Создание кирки	
+idea_slingshot_status_0		Создание рогатки	
+idea_smithy_status_0		Строительство кузницы	
+idea_spiked_plank_status_0		Протягивание доски	
+idea_stable_portal_status_0		Создание стабильного портала	
+idea_throwing_star_status_0		Создание метательной звезды	
+idea_wizard_robe_status_0		Создание мантии волшебника	
+idea_wooden_shield_status_0		Создание деревянного щита	
+label_base_combatlevel		Базовый боевой уровень [level]	
+label_can_drop		Может упасть:	
+label_cancel_the_ritual		Минутку...	
+label_combatlevel		Боевой уровень [level]	
+label_debug_cards	Does not need to be translated	Cards											
+label_debug_coin_chest	Does not need to be translated	Spawn full coin chest											
+label_debug_effects	Does not need to be translated	Status effects											
+label_debug_end_moon	Does not need to be translated	End current moon											
+label_debug_endless_moon	Does not need to be translated	Endless moon: [on_off]											
+label_debug_general	Does not need to be translated	General											
+label_debug_start_cities_run	Does not need to be translated	Start Cities Run											
+label_debug_reset_run	Does not need to be translated	Reset run vars											
+label_debug_scenario_demon	Does not need to be translated	Spawn the Demon											
+label_debug_scenario_demon_lord	Does not need to be translated	Spawn the Demon Lord											
+label_debug_scenario_island	Does not need to be translated	Go to the Island											
+label_debug_scenario_kraken	Does not need to be translated	Spawn the Kraken											
+label_debug_scenario_witch_forest	Does not need to be translated	Go to witch forest											
+label_debug_shortcut_copy	Does not need to be translated	Hover + C: Copy card											
+label_debug_shortcut_delete	Does not need to be translated	Hover + R: Remove/kill card											
+label_debug_shortcut_heal	Does not need to be translated	Hover + H: heal card											
+label_debug_shortcut_progress	Does not need to be translated	Hover + Z: Complete progress											
+label_debug_shortcut_status	Does not need to be translated	Hover + U: Remove status effects											
+label_debug_shortcuts	Does not need to be translated	Shortcuts											
+label_debug_spawn_enemies	Does not need to be translated	Spawn Enemies											
+label_debug_toggle_no_food	Does not need to be translated	Not using Food: [on_off]											
+label_debug_toggle_peaceful_mode	Does not need to be translated	Peaceful mode: [on_off]											
+label_debug_unlock_boosters	Does not need to be translated	Unlock all booster packs											
+label_debug_unlock_ideas	Does not need to be translated	Unlock all ideas											
+label_debug_unlock_quests	Does not need to be translated	Unlock all quests											
+label_defence		Оборона	
+label_demo		Demo	
+label_demo_any_key_to_start		Нажмите любую кнопку, чтобы начать игру	
+label_demo_reset_warning		Demo will reset in [time]s, press any key to continue	
+label_equiping		Оснащение [card]	
+label_everyone_in_forest_dead		Вы не сможете отомстить	
+label_everyone_in_forest_dead_text		Наберитесь сил и попробуйте еще раз!
+label_extra_combat_stats		Дополнительные боевые статы: [on_off]	
+label_forest_fight		Приготовьтесь к бою!	
+label_forest_fight_wave_10		Приготовьтесь сразиться со злой ведьмой!	
+label_forest_intro_1		Вы попадаете в странный темный лес
+label_forest_intro_2		Появляется старушка!	
+label_forest_intro_3		«Доброго дня тебе, путешественник...»	
+label_forest_intro_4		Теперь, когда она стала ближе, она совсем не похожа на старушку!	
+label_forest_intro_5		Она - злая ведьма!	
+label_forest_intro_6		«Ты пришел отомстить, но тебе никогда не победить меня!»	
+label_forest_intro_title		Темный лес		
+label_forest_leave		Вы сбежали с заработанными деньгами	
+label_forest_lost		«Жалкий, это все, на что ты способен?»	
+label_forest_lost_2		Все жители вашей деревни пали. Вам придется понести потери и отступить
+label_forest_lost_title		Ваши жители увяли	
+label_forest_resume		«Значит, ты вернулся за добавкой? Тебе никогда не победить меня!»	
+label_forest_resume_title		Опять?
+label_forest_wave_10_end		«Как это случилось? Я одолею тебя!»	
+label_forest_wave_10_end2		Хотите ли вы сразиться со Злой Колдуньей или покинуть Лес?	
+label_forest_wave_end		«Вы победили моих приспешников, но у меня их еще много!»	
+label_forest_wave_end_leave		Бежать из леса	
+label_forest_wave_end_next_wave		Волна борьбы [wave]	
+label_forest_wave_end_wave_10		Сразитесь со злой ведьмой	
+label_forest_wave_end2		Хотите ли вы сразиться со следующей волной или убежать?	
+label_forest_wave_endless_end		Вы победили злую колдунью, но темные силы все еще не исчезли...	
+label_forest_wave_endless_end3		Вы можете продолжать бороться за получение дополнительных ресурсов	
+label_forest_wave_title		Волна побеждена	
+label_framerate_120		120 FPS	
+label_framerate_30		30 FPS	
+label_framerate_60		60 FPS	
+label_framerate_cap		Ограничение частоты кадров: [fps_cap]	
+label_framerate_unlimited		Нет	Geen	
+label_go_to_forest_prompt		Вы уверены, что хотите путешествовать через этот портал?	
+label_inventory		Инвентарь	
+label_not_enough_food_before_portal		Прежде чем войти в портал, вам нужно запастись достаточным количеством еды для своих жителей	
+label_taking_portal_full		Телепортация через портал	
+label_taking_portal_title		Посетите портал	
+label_total_combatlevel		Общий боевой уровень [level]	
+quest_break_bottle_text		Разбить бутылку	
+quest_build_smithy_text		Постройте кузницу	
+quest_build_stable_portal_text		Создайте стабильный портал	
+quest_craft_amulet_forest_text		Создайте Амулет леса	
+quest_equip_archer_quiver_text		Экипируйте лучника колчаном	
+quest_fight_wave_six_text		Перейдите в волну 6	
+quest_fight_wicked_witch_text		Сразитесь со злой ведьмой		
+quest_find_dark_forest_text		Найдите Темный лес	
+quest_finish_first_wave_text		Пройдите первую волну		
+quest_plant_berry_bush_text		Вырастите ягодный куст, используя почву	
+quest_punch_rock_text		Добыть камень с помощью жителя деревни	
+quest_punch_tree_text		Соберите дерево, используя жителя деревни	
+quest_train_archer_text		Обучить лучника	
+quest_train_ninja_text		Обучить ниндзя	
+quest_train_wizard_text		Обучить волшебника	
+quest_villager_combat_20_text		У вас есть житель деревни с боевым уровнем 20	
+quest_wear_bunny_hat_text		Заставьте жителя деревни надеть кроличью шапку	
+quest_wear_crab_scale_armor_text		Заставьте жителя деревни надеть доспехи из чешуи краба	
+questgroup_equipment		Укрепиться	
+questgroup_forest_mainquest		Темный лес	
+rumor_combat_description		Некоторые типы атак сильнее других. Например, рукопашный бой побеждает магию!	
+rumor_combat_name		Бой	
+specialhit_bleeding_long		[chance]% шанс истечь кровью [target]	
+specialhit_crit_long		[chance]% шанс нанести критический удар по [target]	
+specialhit_damage_long		[chance]% шанс нанести урон [target]	
+specialhit_frenzy_long		[chance]% шанс на Бешенство [target]	
+specialhit_heal_long		[chance]% шанс исцеления [target]	
+specialhit_heallowest_long		[chance]% шанс исцелить друга с наименьшим количеством здоровья	 
+specialhit_invulnerable_long		[chance]% шанс сделать [target] неуязвимым	 
+specialhit_lifesteal_long		[chance]% шанс получить Оживление от [target]	
+specialhit_poison_long		[chance]% шанс отравить [target]	
+specialhit_stun_long		[chance]% шанс оглушить [target]	
+statuseffect_bleeding_description		Наносит урон каждые 2 с в течение 10 с	
+statuseffect_bleeding_lore		Оно вырывается наружу
+statuseffect_bleeding_name		Кровотечение	
+statuseffect_frenzy_description		Увеличивает скорость атаки на 10 с	
+statuseffect_frenzy_lore		Они в ярости	
+statuseffect_frenzy_name		Frenzy		
+statuseffect_invulnerable_description		Невозможно повредить в течение 10 с	
+statuseffect_invulnerable_lore		Кожа из стали	
+statuseffect_invulnerable_name		Неуязвимый	
+target_allenemy		все враги	
+target_allfriendly		все дружелюбны	
+target_randomenemy		случайный враг	
+target_randomfriendly		случайный дружелюбный	
+target_self		self	
+target_target		цель	
+cardtype_humans		Жители деревни	
+label_food_infobox		Все Луны, которые вам нужны [required_food_count] [foodicon] чтобы прокормить своих жителей. В настоящее время у вас есть [food_count] [foodicon]	
+label_food_infobox_warning		Получите [foodicon] чтобы не потерять своих жителей!	
+label_starving_humans		<one>Не хватает еды... 1 житель деревни умрет от голода<other>Не хватает еды... [count] жителей деревни умрут от голода	
+card_tuna_description		Рыбный фарш	
+card_cod_description		Мокрая и скользкая рыба	
+card_mackerel_description		Маленькая рыбка	
+label_health		Максимальное здоровье
+label_wave		Волна [wave]	
+label_undiscovered_cards_tooltip		В этой пачке еще остались нераскрытые карты	
+label_undiscovered_cards_tooltip_title		Неразгаданные карты	
+rumor_dark_forest_name		Темный лес	
+rumor_dark_forest_description		За Странным порталом скрыт мир	
+pack_equipment_text	Название набора карт, связанных с боем	Снаряжение
+label_ui_scale		UI Scale: [scale]	
+label_ui_scale_100		100%	
+label_ui_scale_80		80%	
+label_ui_scale_60		60%	
+pack_combat_intro_text		Новое оружие	
+label_strange_portal_appeared_strong		Он кажется сильнее, чем обычно	
+label_itemlevel		Уровень предмета [level]		
+label_health_info		ОЗ: [health]/[maxhealth]	
+card_rare_portal_name		Редкий портал	
+card_rare_portal_description		Выглядит угрожающе. Интересно, сможем ли мы войти в него?	
+label_forest_wave_endless_end2		Вы завершили квест Темного леса
+label_max_villager_in_portal		Вы можете взять только 7 жителей деревни в портал	
+card_stable_portal_description		Постоянный портал в Темный лес. Может перемещать 7 карт. Время для мести!	
+label_update_title_forest		Обновление Темного леса	
+label_update_text_forest	Последнее обновление уже здесь! Мы добавили новую зону, внесли значительные изменения в бои в игре и добавили несколько исправлений качества жизни! ##Это обновление вносит множество изменений в базовую игру. Для получения наилучших впечатлений вам следует начать новый запуск!	Последнее обновление уже здесь! Мы добавили новую зону, внесли значительные изменения в бои в игре и добавили несколько исправлений качества жизни! ##Это обновление вносит множество изменений в базовую игру. Для получения наилучших впечатлений вам следует начать новый запуск!
+card_militia_description		Деревенский житель, готовый пошуметь	
+card_swordsman_description		Деревенский житель, готовый к бою!	
+quest_pause_game_text		Приостановите воспроизведение, используя значок воспроизведения в правом верхнем углу	
+card_university_name		Университет	
+card_university_description_long		Место мудрости. Дает вам новую идею для каждого [max_count] монеты, которые вы им подарите. [count]/[max_count] выданные монеты
+card_university_description_completed		Место мудрости. Вы открыли для себя все их Идеи.
+idea_university_status_0		Строительство университета	
+label_invention_fullname		Изобретение: [name]	
+card_lighthouse_name		Маяк	
+card_lighthouse_description		Увеличивает размер доски сверх лимита Хранилища	
+idea_lighthouse_status_0		Строительство маяка
+card_resource_chest_name_override	[resource] заменяется ресурсом, который хранится в сундуке, например, «Сундук с древесиной»	[resource] Сундук	
+card_resource_chest_name		Сундук с ресурсами	
+card_resource_chest_description		Сундук для хранения ресурсов	
+card_resource_chest_description_long		Сундук, содержащий [amount] [resource] 	
+idea_resourcechest_status_0		Строительный сундук	
+card_resource_magnet_name		Магнит для ресурсов		
+card_resource_magnet_name_override		[resource] Магнит	
+card_resource_magnet_description		Эта карта магическим образом притягивает к себе карты того же типа	
+card_resource_magnet_description_long	[resource] заменяется ресурсом, который притягивает магнит, например, «Магнит из дерева»	Магнит притягивает [resource]	
+idea_resource_magnet_status_0		Создание ресурсного магнита	
+card_heavy_foundation_name		Волшебный клей	
+card_heavy_foundation_description		Прикрепляет стопку к доске и не дает ей перемещаться	
+idea_heavy_foundation_status_0		Магия ремесел 
+card_conveyor_name		Кран	
+card_conveyor_description		Поднимает карты с одного места на другое	
+card_conveyor_status		Подъемник [resource]	
+idea_conveyor_status_0		Строительство крана	
+card_hotpot_name		Горячая еда	
+card_hotpot_description		Восполняемый источник еды, из которого могут питаться ваши жители. Добавьте еду, и они будут есть из нее в конце Луны!	
+idea_hotpot_status_0		Создание горячего блюда	
+card_trash_can_name		Dustbin	
+card_trash_can_description		Allows you to get rid of cards you don't want anymore	
+idea_trash_can_status_0		Строительство мусорного бака	
+card_trash_can_status_0		Избавление от карты	
+label_update_text_chaos	Здесь новое небольшое обновление! Мы добавили кучу карт, которые сделают жизнь в средней и поздней игре намного более управляемой.## Есть карты, которые помогут вам в управлении едой, ресурсами и даже некоторые карты, которые вы можете использовать для настройки простой автоматизации!##Мы также исправили некоторые ошибки, а также добавили исправления качества жизни. Наслаждайтесь!	Здесь новое небольшое обновление! Мы добавили кучу карт, которые сделают жизнь в средней и поздней игре намного более управляемой.## Есть карты, которые помогут вам в управлении едой, ресурсами и даже некоторые карты, которые вы можете использовать для настройки простой автоматизации!##Мы также исправили некоторые ошибки, а также добавили исправления качества жизни. Наслаждайтесь!
+label_update_title_chaos		Порядок и структура	
+label_menu_sub_title		Порядок и структура	
+card_breeding_pen_name		Племенной загон	
+card_breeding_pen_description		Загон для разведения животных	
+idea_breedingpen_status_0		Строительство загона для разведения	
+action_breeding_status		Разведение животных
+action_slaughtering_status		Разделывание животного	
+card_slaughter_house_name		Мясная лавка	
+card_slaughter_house_description		Отправляет животных на отдых	
+idea_slaughterhouse_status_0		Строительство мясной лавки	
+card_wishing_well_name		Колодец желаний	
+card_wishing_well_description_long		<one>Он дает вам желание за каждые [count] монет. В данный момент у вас есть [amount] желаний<other>Это дает вам желание за каждые [count] монет. В данный момент у вас есть [amount] желаний	
+card_wishing_well_wish_1		«Ааа! Мое первое желание»	
+card_wishing_well_wish_2		«Я чувствую себя счастливчиком!»	
+card_wishing_well_wish_5		«О счастливые дни!»	
+card_wishing_well_wish_10		«Я очень надеюсь, что этот Колодец желаний что-нибудь сделает?»	
+card_wishing_well_wish_20		«Я точно трачу много денег на желания»	
+card_wishing_well_wish_50		«Это никуда не денется. Я должен прекратить покупать желания»	
+idea_wishing_well_status_0		Строительство колодца желаний	
+card_brickyard_status		Создание кирпича	
+card_sawmill_status		Изготовление доски	
+label_one_villager_needs_to_stay_island		Хотя бы один житель деревни должен остаться на острове	
+card_university_status		Исследование	
+label_demand_coins_text		«Я хочу купить несколько красивых вещей! Принеси мне [amount] монет до конца луны [monthFinished]»
+label_demand_garden_text		«У нас мало еды, и я хочу, чтобы мои слуги приготовили мне побольше. Постройте для меня сад до конца луны. [monthFinished]»	
+label_demand_olives_text		«Я бы хотел съесть что-нибудь... экзотическое. Принесите мне [amount] оливок до конца луны [monthFinished]»
+label_demand_beer_text		«Я буду принимать гостей в конце луны [monthFinished]. Принесите мне [amount] пива до этого времени»	
+label_demand_fancy_dress_text		«Я хочу произвести впечатление на даму, которая мне нравится. Достаньте мне маскарадный костюм до конца луны [monthFinished]»
+label_demand_royal_banquet_text		«Через несколько лун у меня день рождения, и я хочу большой праздник! Устройте мне королевский банкет до конца луны [monthFinished]»	
+label_demand_wool_socks_text		«Мои ноги замерзли! Достань мне фиолетовые носки до конца луны [monthFinished]»
+label_demand_wine_text		«Винный погреб пуст! Принесите мне 2 бутылки вина до конца луны [monthFinished]»	
+label_demand_painting_text		«Мой дом недостаточно стильный. Купи мне картину до конца луны [monthFinished]»
+label_missing_cards_more_text		и [amount] больше	
+label_animal_die		Некоторые животные ушли из жизни	
+specialhit_sick_long		[chance]% шанс сделать [target] 
+card_well_name		Колодец	
+card_well_description		Бесконечный источник воды	
+card_well_status_0		Строительство колодца	
+card_well_status_1		Получение воды	
+label_disable_paused_text		Мигает «Пауза»: [on_off]		
+label_placeholder_search	Показывается в «полях поиска», где игроки могут вводить текст	Поиск...
+label_conflict_very_effective		Очень эффективно	
+cutscene_happiness_food_text_0		«Вы продали немного еды...»	
+cutscene_happiness_food_text_1		«Печаль появляется, если вы продаете еду, которую могут есть жители деревни»	
+label_altar_cutscene_mainland		Вы уже завершили этот Мир духов. Хотите ли вы перезапустить Мир духов или призвать его проклятие здесь?	
+label_altar_run_board		Призыв [curse]	
+label_altar_run_redo		Перезапустить мир духов	
+board_island_name		Остров	
+board_main_name		Материк	
+board_forest_name		Лес	
+board_greed_name		Жадность	
+board_death_name		Смерть	
+board_happiness_name		Счастье	
+label_altar_cutscene_good_luck		«Вы вызвали Проклятие, удачи!»	
+cutscene_happiness_middle_text_0		«Ты отлично справляешься с тем, чтобы деревня была счастлива. Возможно, мы сможем снять проклятие, если ты соберешь больше!»	
+label_name_villager_title		Назовите эту карту	
+credits_Tumult		Звуковые эффекты	
+label_spirit_outro_0_greed		Вы сняли проклятие жадности!	
+label_spirit_outro_0_death		Вы сняли Проклятие Смерти!	
+label_spirit_outro_0_happiness		Вы сняли Проклятие Печали!	
+card_sad_event_description		Создает 1 печаль за каждых 2 жителей деревни	
+card_sad_event_name		Печальное событие	
+label_sad_event_appeared		Сейчас произойдет что-то печальное!	
+label_greed_demand_failed_fight_peaceful		«Мне придется преподать тебе урок... Я заберу твои монеты!!!»	
+label_shaman_intro_peaceful		«Вы соединили Храм и Золотой кубок и получили идею для Гребной лодки»	
+card_archer_name_young		Юный лучник	
+card_archer_name_old		Старый лучник	
+card_builder_name_young		Молодой строитель	
+card_builder_name_old		Старый строитель	
+card_lumberjack_name_young		Молодой дровосек	
+card_lumberjack_name_old		Старый дровосек	
+card_mage_name_young		Молодой маг	
+card_mage_name_old		Старый маг	
+card_miner_name_young		Молодой шахтер	
+card_miner_name_old		Старый шахтер	
+card_ninja_name_young		Молодой ниндзя
+card_ninja_name_old		Старый ниндзя	
+card_warrior_name_young		Молодой воин	
+card_warrior_name_old		Старый воин	
+card_wizard_name_young		Молодой волшебник	
+card_wizard_name_old		Старый волшебник	
+card_explorer_name_young		Молодой исследователь	
+card_explorer_name_old		Старый исследователь	
+card_militia_name_young		Юный ополченец	
+card_militia_name_old		Старый ополченец	
+card_swordsman_name_young		Юный мечник	
+card_swordsman_name_old		Старый мечник	
+card_fisher_name_young		Молодой рыболов	
+card_fisher_name_old		Старый рыболов	
+card_friendly_pirate_name_young		Молодой дружелюбный пират	
+card_friendly_pirate_name_old		Старый дружелюбный пират	
+card_trained_monkey_name_young		Молодая дрессированная обезьяна	
+card_trained_monkey_name_old		Старая дрессированная обезьяна	
+card_jester_name_young		Молодой шут	
+card_jester_name_old		Старый шут	
+label_youtube_dlc_title		Проклятые миры - ранний доступ	
+label_youtube_dlc_text		Это специальная сборка раннего доступа к Stacklands Cursed Worlds DLC!##Вы можете быстро получить доступ к новому контенту, используя наше готовое сохранение. Это сохранение начинается сразу после победы над первым боссом игры.## Также можно продолжить игру с текущего сохранения.## Если вы хотите начать с нуля, очистите данные сохранения в меню настроек.	
+label_load_run		Используйте готовое сохранение игры	
+label_exit		Продолжить обычно	
+card_chicken_name_old		Старая курица
+card_cow_name_old		Старая корова	
+card_crab_name_old		Старый краб	
+card_horse_name_old		Старая лошадь	
+card_monkey_name_old		Старая обезьяна	
+card_parrot_name_old		Старый попугай	
+card_rabbit_name_old		Старый кролик	
+card_sheep_name_old		Старая овца	
+cutscene_death_middle_text_3		«Вы не получили нового жителя деревни вовремя...»	
+cutscene_death_middle_text_4		«К сожалению, это означает, что эта деревня обречена на конец...»	
+label_greed_given	Это указывается под требованием короля, чтобы показать, сколько уже было дано, например, «1/5 дано».	[given] дано	
+credits_betatesting		Beta testing	Betatesting	Beta test	
+quest_happiness_read_book_text		Читать книгу	
+label_music		Музыка	
+label_click_this_pack		Откройте этот пакет, чтобы получить карты!	
+card_coin_chest_description_long		Сундук, в котором могут храниться монеты. Взаимодействуйте с ним, чтобы извлечь монеты. Содержит [count]/[max_count][goldicon]	
+card_shell_chest_description_long		Сундук, в котором могут храниться ракушки. Взаимодействуйте с ним, чтобы извлечь ракушки. Содержит [count]/[max_count][shellicon]	
+label_toggle_inventory		Переключение инвентаря	
+card_altar_description		Используется для вызова духов	
+card_altar_name		Алтарь	
+card_angry_royal_description		Вы разгневали самого важного человека на свете	
+card_angry_royal_name		Сердитый король	
+card_animal_cage_description		Вмещает 1 животное	
+card_animal_cage_name		Клетка для животных	
+card_animal_cage_status_0		Строительство клетки для животных	
+card_animal_eating_status		Употребление пшеницы	
+card_animal_old_name		Старый [name]	
+card_animal_pen_status		[name] производит [card]	
+card_baby_dragon_description		Волшебный динозавр	
+card_baby_dragon_name		Малыш Дракон	
+card_barrel_description		Превращает влажные смеси в различные влажные смеси	
+card_barrel_name		Бочка	
+card_barrel_status_0		Строительство бочки	
+card_beer_description		Вода и пшеница. Исконный дуэт.	
+card_beer_name		Пиво	
+card_beer_status_0		Пивоварение	
+card_book_description		Видеоигры, но для ботаников	
+card_book_name		Книга	
+card_book_status_0		Создание книги	
+card_bread_description		Кто не любит это	
+card_bread_name		Хлеб	
+card_bread_status_0		Выпечка хлеба	
+card_cat_description		Милая и злая	
+card_cat_name		Кошка	
+card_charity_description		енерирует 1 счастье за каждое  [amount] монет, которые вы ему даете	
+card_charity_name		Благотворительность		
+card_charity_status_0		Создание благотворительной организации	
+card_charity_status_active		Благотворительные пожертвования	
+card_cheese_description		На вкус как гауда	
+card_cheese_name		Сыр	
+card_cheese_status_0		Изготовление сыра	
+card_corpse_name_long		Труп [name]	
+card_corpse_remove		Похороненный труп	
+card_crown_description		Притворитесь королевской особой	
+card_crown_name		Корона	
+card_crown_status_0		Изготовление короны	
+card_curse_happiness_description		Ваши жители нуждаются в счастье каждые [month] лун
+card_death_curse_description		Смерть, но без налогов. Жители деревни стареют и болеют	
+card_death_curse_name		Проклятие смерти	
+card_death_recipe_description		Принесение сырого мяса на алтарь вызовет дух Предложение 
+card_death_recipe_name		Мир смерти	
+card_death_spirit_description		Из далекого мира, где жители деревень стареют и болеют
+card_death_spirit_name		Дух смерти	
+card_display_spirit_dlc_description		Купите DLC «Проклятые миры», чтобы получить доступ к этим картам	
+card_display_spirit_dlc_name		Проклятые миры	
+card_dough_description		Он проходит испытание оконным стеклом	
+card_dough_name		Тесто	
+card_dough_status_0		Приготовление теста	
+card_dragon_egg_description		Большое куриное яйцо в крапинку	
+card_dragon_egg_name		Яйцо дракона	
+card_dragon_egg_name_cracked		Расколотое яйцо дракона	
+card_dragon_scale_armor_description		Хорошая броня, но какой ценой...	
+card_dragon_scale_armor_name		Доспехи из драконьей чешуи	
+card_euphoria_description		Чувство или состояние сильного возбуждения и счастья	
+card_euphoria_name		Эйфория	
+card_euphoria_status_0		Создание эйфории	
+card_fiend_description		Большое, похожее на демона существо	
+card_fiend_name		Изверг	
+card_fish_chips_description		Не путать с «Рыба и криспы». Это не патат фриет? Это чипсы.	
+card_fish_chips_name		Рыба и чипсы	
+card_fish_chips_status_0		Приготовление рыбы и чипсов	
+card_flour_description		Песочный. Основной ингредиент для теста	
+card_flour_mill_description		Превращает пшеницу в муку	
+card_flour_mill_name		Мукомольный завод	
+card_flour_name		Мука	
+card_fountain_of_youth_description		Снимает проклятие смерти	
+card_fountain_of_youth_name		Фонтан молодости	
+card_fountain_of_youth_status_0		Создание фонтана молодости	
+card_french_fries_description		Хрустящий картофель	
+card_french_fries_name		Картофель фри	
+card_french_fries_status_0		Жарка картошки фри 
+card_ghoul_description		Призрачный дух	
+card_ghoul_name		Гуль	
+card_grape_description		Это просто причудливая ягода
+card_grape_name		Виноград	
+card_grape_pulp_description		Виноградная суспензия	
+card_grape_pulp_name		Мякоть винограда	
+card_grape_pulp_status_0		Растаптывание винограда	
+card_grape_vine_description		Стройный ягодный куст	
+card_grape_vine_name		Виноградная лоза	
+card_grape_vine_status		Сбор винограда	
+card_greed_curse_description		Жадный король правит страной. Выполните его требования.	
+card_greed_curse_name		Проклятие жадности	
+card_greed_recipe_description		Предложив Алтарю монету, вы вызовете духа	
+card_greed_recipe_name		Мир жадности	
+card_greed_spirit_description		Из далекого мира, где правит королевская семья	
+card_greed_spirit_name		Дух жадности	
+card_happiness_curse_description		Счастье нужно всем	
+card_happiness_curse_name		Проклятие печали	
+card_happiness_description		Единица Счастья. Она делает жителей деревни счастливыми	
+card_happiness_name		Счастье	
+card_happiness_recipe_description		Поднесение древесного угля к алтарю вызовет духа	
+card_happiness_recipe_name		Мир печали	
+card_happiness_spirit_description		Из далекого мира, где жители деревень грустят	
+card_happiness_spirit_name		Дух печали	
+card_herbal_tea_description		Помогает чувствовать себя лучше	
+card_herbal_tea_name		Травяной чай	
+card_herbal_tea_status_0		Приготовление травяного чая	
+card_herbal_tea_status_1		Вылечить деревенского жителя	
+card_herbs_description		Листья с ароматом	
+card_herbs_name		Травы	
+card_hop_plant_status_0		Сбор хмеля	
+card_horse_description		Странная на вид корова	
+card_horse_name		Лошадь	
+card_human_poop_description		Ну и вонь...	
+card_human_poop_name		Деревенская какашка	
+card_imp_description		Мерзкое маленькое существо	
+card_imp_name		Бес	
+card_jester_description		Веселье на вечеринках	
+card_jester_hat_description		Делает вас похожим на шута	
+card_jester_hat_name		Шляпа шута	
+card_jester_hat_status_0		Создание шута
+card_jester_name		Шут	
+card_kitten_description		Пушистая прелесть	
+card_kitten_name		Котенок	
+card_merchant_description		Продам яйцо дракона за 100 монет!	
+card_merchant_description_2		Продам яйцо дракона за 100 монет! Все еще нуждается в [coinsNeeded] монет.	
+card_merchant_name		Торговец
+card_museum_description		Превращает ресурсы в счастье, за каждый новый ресурс, который он получает	
+card_museum_name		Музей	
+card_museum_status_0		Строительство музея	
+card_naming_stone_description		Больше не нужно забывать, кто есть кто!	
+card_naming_stone_name		Именной камень	
+card_naming_stone_status_0		Построение именования 
+card_old_cat_description		Иногда ворчит	
+card_old_cat_name		Старый кот	
+card_old_dog_description		Все еще хороший мальчик
+card_old_dog_name		Старый пес	
+card_old_villager_description		Жизнь проносится перед глазами	
+card_old_villager_name		Старый житель деревни	
+card_olive_description		Средиземноморская классика	
+card_olive_name		Олива	
+card_olive_oil_description		Вкусный оливковый сок	
+card_olive_oil_name		Оливковое масло	
+card_olive_oil_status_0		Изготовление оливкового масла	
+card_olive_pulp_description		Суспензия из оливок	
+card_olive_pulp_name		Оливковая целлюлоза	
+card_olive_pulp_status_0		Оливки для топтания	
+card_olive_tree_description		Возраст может достигать 3 500 лет	
+card_olive_tree_name		Оливковое дерево	
+card_olive_tree_status		Сбор урожая оливок	
+card_outhouse_description		Используйте его, чтобы избавиться от какашек	
+card_outhouse_name		Туалет	
+card_outhouse_remove_poop		Избавление от какашек	
+card_outhouse_status_0		Строительство туалета	
+card_oven_description		Раньше я пекла всевозможные блюда	
+card_oven_name		Печь	
+card_painting_description		Рисунок французского деревенского жителя	
+card_painting_name		Живопись	
+card_painting_status_0		Создание картины	
+card_pancakes_description		Большая стопка!	
+card_pancakes_name		Блины	
+card_pancakes_status_0		Приготовление блинов	
+card_paper_description		Мокрая древесина, тонко нарезанная		
+card_paper_name		Бумага	
+card_paper_status_0		Изготовление бумаги	
+card_petting_zoo_description		Генерирует счастье для каждого животного	
+card_petting_zoo_name		Зоопарк	
+card_petting_zoo_status_0		Строительство зоопарка	
+card_petting_zoo_status_active		Поглаживание животных	
+card_pizza_description		Да, черт возьми	
+card_pizza_name		Пицца	
+card_pizza_status_0		Приготовление пиццы	
+card_plague_mask_description		Вы не можете заболеть	
+card_plague_mask_name		Чумная маска		
+card_plague_mask_status_0		Изготовление маски чумы	
+card_poop_cant_sell		Вы не можете продавать какашки, когда действует Проклятие смерти	
+card_poop_slime_description		Слизь из какашек	
+card_poop_slime_name		Какашечная слизь	
+card_possessed_blade_description		Заставляет своего владельца чувствовать себя неспокойно	
+card_possessed_blade_name		Одержимый клинок	
+card_puppy_description		Это восхитительно	
+card_puppy_name		Щенок	
+card_rag_description		Плохо сидящий кусок хлопка	
+card_rag_name		Тряпка	
+card_roasted_fish_description		Хорошо подрумяненная	
+card_roasted_fish_name		Жареная рыба	
+card_roasted_fish_status_0		Жареная рыба	
+card_roasted_meat_description		Хрустящий снаружи	
+card_roasted_meat_name		Жареное мясо	
+card_roasted_meat_status_0		Жарка мяса	
+card_royal_archer_description		Обучался на территории замка	
+card_royal_archer_name		Королевский лучник	
+card_royal_banquet_description		Очень вкусная еда в сочетании	
+card_royal_banquet_name		Королевский банкет	
+card_royal_banquet_status_0		Подготовка королевского банкета	
+card_royal_crown_description		Придает вам силы и делает вас жадным	
+card_royal_crown_name		Королевская корона	
+card_royal_description		Избалованный ребенок
+card_royal_description_demand_2		Он требует, чтобы вы принесли ему яйцо дракона. Вернитесь к нему, когда получите его 	
+card_royal_guard_description		Отдадут жизнь за королевский род	
+card_royal_guard_name		Королевская гвардия	
+card_royal_mage_description		Благородный волшебник	
+card_royal_mage_name		Королевский маг	
+card_royal_name		Король	
+card_royal_tunic_description		Выглядит модно на поле боя	
+card_royal_tunic_name		Туника гвардейца	
+card_ruins_description		Древнее место. Требуется [required_count] деревенских жителя, которых нужно исследовать	
+card_ruins_name		Руины	
+card_ruins_status		Исследование руин	
+card_sadness_demon_description		Он был создан благодаря печали ваших жителей	
+card_sadness_demon_name		Демон печали	
+card_scythe_description		Пригодится для ведения сельского хозяйства и рубки монстров	
+card_scythe_name		Коса	
+card_scythe_status_0		Изготовление косы	
+card_sewer_description		Автоматически притягивает какашки	
+card_sewer_name		Канализация	
+card_sewer_status_0		Строительство канализации	
+card_shaman_description		Беседы с духами	
+card_shaman_name		Шаман	
+card_shaman_status		Воспевание	
+card_spirit_status_1		Покидая мир духов	
+card_spring_description		Источник воды. Можно также использовать для наполнения пустых бутылок	
+card_spring_name		Родник		
+card_squire_description		Он несет ваш щит	
+card_squire_name		Оруженосец	
+card_squire_tunic_description		Для начинающих рыцарей	
+card_squire_tunic_name		Туника Оруженосца	
+card_squire_tunic_status_0		Создание туники Оруженосца	
+card_stomping_vat_description		Сначала вымойте ноги	
+card_stomping_vat_name		Топчущий чан
+card_stomping_vat_status_0		Построение топчущего чана 
+card_tavern_description		Превращает еду в счастье	
+card_tavern_name		Таверна	
+card_tavern_status_0		Подача еды	
+card_teenage_villager_description		Мир прямо у ваших ног	
+card_teenage_villager_name		Молодой житель деревни	
+card_throwing_tomatos_description		Толпе это не понравилось	
+card_throwing_tomatos_name		Помидоры	
+card_throwing_tomatos_status_0		Изготовление томатов	
+card_tomato_description		Красный, круглый и веселый
+card_tomato_name		Помидор	
+card_tomato_plant_description		Ешьте только красную часть	
+card_tomato_plant_name		Растение томата	
+card_tomato_plant_status		Сбор помидоров	
+card_unhappiness_description		Заставляет деревенских жителей грустить##За каждую имеющуюся у вас карту грусти вам потребуется 1 дополнительное счастье	
+card_unhappiness_name		Печаль	
+card_university_description		Место мудрости. Дает вам новую идею за каждую [max_count] монет, которые вы отдадите	
+card_water_description		Влажная жидкость	
+card_water_name		Вода	
+card_water_status_0		Получение воды	
+card_wheat_description		Это трава для людей, но рай для животных	
+card_wheat_name		Пшеница	
+card_whip_description		В ближнем или дальнем бою? Кто знает	
+card_whip_name		Кнут	
+card_wine_description		От этого виноградного сока мне становится смешно	
+card_wine_name		Вино	
+card_wine_status_0		Изготовление вина	
+card_winter_coat_description		Замечательно зимой	
+card_winter_coat_name		Зимнее пальто		
+card_winter_coat_status_0		Изготовление зимнего пальто	
+card_wishing_well_description		Он исполняет желание за каждые [count] монет	
+card_wool_dress_description		Платье, которое произведет впечатление	
+card_wool_dress_name		Модный костюм	
+card_wool_dress_status_0		Создание модного костюма	
+card_wool_socks_description		На них маленькие кошачьи лапы!	
+card_wool_socks_name		Фиолетовые носки	
+card_wool_socks_status_0		Изготовление фиолетовых носков	
+cardtype_happiness		Счастье	
+cardtype_spirits		Духи и проклятия	
+credits_cyber		Поддержка моддинга	
+cursetype_death		Смерть	
+cursetype_greed		Жадность	
+cursetype_happiness		Счастье	
+cutscene_death_end_text_0		«Я вижу, вы разблокировали новый пакет!»	
+cutscene_death_end_text_1		«Я слышал, что в этом пакете содержится лекарство от моего проклятия».	
+cutscene_death_middle_text_0		«Похоже, житель деревни умер от старости»	
+cutscene_death_middle_text_1		«Всегда грустно видеть, как это происходит. Со мной он в безопасности»	
+cutscene_death_middle_text_2		«Обязательно найдите новых жителей деревни, пока они все не умерли»	
+cutscene_greed_end_text_0		«Яйцо дракона? Надеюсь, он готов к тому, что его ждет»	
+cutscene_greed_middle_text_0		«Этот жадный король думает, что может требовать все...»	
+cutscene_greed_middle_text_1		«Я уверен, что его требования скоро станут его погибелью»	
+cutscene_happiness_end_text_0		«Я нашел способ избавиться от проклятия»	
+cutscene_happiness_end_text_1		«Объедините 3 эйфории с проклятием печали»	
+cutscene_happiness_end_text_2		«Вот идея для этого»	
+cutscene_happiness_middle_text_1		«Если у нас будет больше счастья, мы сможем снять проклятие печали»	
+demand_fancy_dress_start_text		«Я собираюсь подарить это платье очень красивой особе!»	
+demand_fancy_dress_success_text		«Платье было идеальным подарком, ей очень понравилось! У меня всегда самые лучшие идеи!»	
+greed_quest_demand_description_not_found		«Мой королевский советник проинструктирует вас, как получить то, что мне нужно»	
+greed_quest_demand_failed		«Вы не выполнили мои требования!»	
+greed_quest_demand_failed_2		«Что это такое? Вы не предоставили мне то, что я просил»	
+greed_quest_demand_failed_3		«Мой запрос был очень конкретным, но я не вижу товара»	
+greed_quest_demand_success		«Спасибо. Я не знал, что в тебе это есть»	
+greed_quest_demand_success_2		«Ах, именно то, что мне было нужно...»	
+greed_quest_demand_success_3		«Восхитительно! То, что я заказывал»	
+greed_quest_demand_title		Королевские требования!	
+idea_altar_status_0		Строительство алтаря	
+idea_death_curse_fix_description		Снимает проклятие смерти	
+idea_death_curse_fix_name		Снятие проклятие смерти	
+idea_death_curse_fix_status_0		Снятие проклятия смерти	
+idea_flour_mill_status_0		Строительство мукомольной мельницы	
+idea_flour_status_0		Измельчение пшеницы	
+idea_greed_curse_fix_description		Снимает проклятие жадности	
+idea_greed_curse_fix_name		Снятие проклятие жадности	
+idea_greed_curse_fix_status_0		Снятие проклятия жадности	
+idea_growth_status_13		Выращивание пшеницы	
+idea_growth_status_14		Выращивание виноградной лозы	
+idea_growth_status_15		Выращивание оливкового дерева	
+idea_growth_status_16		Выращивание томатного растения	
+idea_growth_status_17		Растущее дерево	
+idea_growth_status_18		Выращивание трав	
+idea_happiness_curse_fix_description		Снимает проклятие печали	
+idea_happiness_curse_fix_name		Снимает проклятие	
+idea_happiness_curse_fix_status_0		Снятие проклятия печали	
+idea_happiness_description		Быстрый и грязный способ получить Счастье	
+idea_happiness_name		Счастье	
+idea_happiness_result		Быстрый и грязный способ получить Счастье	
+idea_happiness_status_0		Восхитительные монеты	
+idea_happiness_status_1		Читать книгу	
+idea_offspring_status_2		Создание котенка	
+idea_oven_status_0		Строительство печи	
+idea_tavern_status_0		Строительство таверны	
+idea_unhappiness_status_0		Заставить деревенского жителя грустить	
+ideagroup_death		Смерть	
+ideagroup_greed		Жадность	
+ideagroup_happiness		Счастье	
+label_advanced_combat		Боевая статистика в игре: [on_off]	
+label_advanced_settings		Дополнительные параметры	
+label_age_villagers		С днем рождения!
+label_altar_cutscene_help_false		Игнорировать	
+label_altar_cutscene_help_spirit_false		«Пожалуйста, вызови меня снова, когда сможешь мне помочь»	
+label_altar_cutscene_help_spirit_true		«Спасибо! Следуйте за мной в мой мир»
+label_altar_cutscene_help_true		Помогите им	
+label_altar_cutscene_text		«Я [spirit]. Можете ли вы помочь мне в моем мире?»	
+label_altar_cutscene_title		Алтарь начинает грохотать	
+label_angry_villager		Один из ваших жителей разозлился!
+label_beat_curse_to_unlock		Снимите это проклятие, чтобы начать новый забег с ним	
+label_buy_dlc_steam		Купить в Steam	
+label_cardopedia_all		Все карты	
+label_cardopedia_forest		Темный лес
+label_cardopedia_island		Остров	
+label_cardopedia_main		Оригинал	
+label_cardopedia_modded		Моды	
+label_cardopedia_order		Порядок и структура	
+label_cardopedia_spirit		Проклятые миры	
+label_change_board_disabled_text		В мире духов нельзя менять миры	
+label_change_board_disabled_title		Travel disabled	
+label_clicktodrag_enabled		Легкое перетаскивание	
+label_clicktodrag_tooltip		Позволяет перетаскивать карты с помощью щелчка правой кнопкой мыши.# Щелкните правой кнопкой мыши один раз, чтобы начать перетаскивание, и щелкните правой кнопкой мыши еще раз, чтобы остановить перетаскивание.	
+label_death_intro_1		«Добро пожаловать в мир смерти»	
+label_death_intro_2		«Каждые несколько лун наши жители взрослеют»	
+label_death_intro_3		«Состарившись, мы уходим из жизни...»	
+label_death_intro_4		«Мы также можем заболеть, если вокруг слишком много какашек»	
+label_death_intro_5		«Вы можете снять наше проклятие?»	
+label_death_intro_title		Проклятие смерти?	
+label_demand_collected		«Поехали»	
+label_demand_collected_2		«Вижу! Поехали!»	
+label_demand_complete_start		«Пора собирать! Надеюсь, у вас есть все!»	
+label_enable_curse_unknown		Проклятие ???: Off	
+label_enable_death_curse		Проклятие смерти: [on_off]	
+label_enable_greed_curse		Проклятие жадности: [on_off]	
+label_enable_happiness_curse		Проклятие печали: [on_off]	
+label_enabled_curses		Включенные проклятия		
+label_everyone_angry		Вся ваша деревня пришла в ярость!	
+label_everyone_spirit_world_dead		Все в мире духов погибли	
+label_everyone_spirit_world_dead_text		Возвращение к алтарю	
+label_everyone_spirit_world_dead_text_retry		Вы можете вернуться в этот мир духов, используя Алтарь	
+label_final_demand_end_text		«Я сомневался, что ты достанешь мне яйцо дракона, но вот ты здесь!»	
+label_final_demand_end_text_2		*В скорлупе появляется трещина*
+label_final_demand_end_text_3		«Что это? Трещина в МОЕМ яйце дракона? Немедленно достаньте мне новое!»	
+label_final_demand_end_text_4		Яйцо снова трескается...	
+label_final_demand_end_text_5		«Как тебе не стыдно...»	
+label_final_demand_end_text_6		Яйцо разбивается!	
+label_final_demand_end_text_7		Это дракон!	
+label_final_demand_end_text_8		Одним сильным взмахом дракон уничтожает королевский	
+label_final_demand_merchant		Появился торговец
+label_final_demand_text		«У меня есть все, но этого недостаточно...»
+label_final_demand_text_2		«Я хочу больше еды, больше развлечений и больше ценностей!»	
+label_final_demand_text_3		«Мой близкий друг получил на день рождения яйцо Феникса... Я хочу что-нибудь получше!»	
+label_final_demand_text_4		«В городе есть торговец, и он продает яйцо дракона! Принеси его мне!»	
+label_forest_update		Темный лес	
+label_fountain_text		Фонтан не дает вашим жителям стареть	
+label_fountain_title		Фонтан молодости	
+label_giving_happiness	nog over nadenken	Дарить счастье...	
+label_greed_demand_failed_fight		«Мне придется преподать тебе урок... Стража!!!»	
+label_greed_demand_failed_first_time		«Это твой первый проступок, поэтому я оставлю все как есть. Больше так не делай!»	
+label_greed_intro_1		«Добро пожаловать в мир жадности»	
+label_greed_intro_2		«Это Жадный Королевский...»	
+label_greed_intro_3		«Начиная со следующей луны, он будет требовать все, что пожелает его сердце»	
+label_greed_intro_4		«Если вы не будете служить королю, он пошлет своих королевских гвардейцев»	
+label_greed_intro_5		«Помогите мне избавиться от него, чтобы снять наше проклятие!»	
+label_greed_intro_title		Мир жадности	
+label_greed_lift_curse		«К счастью, дракон не съел королевскую корону»	
+label_greed_lift_curse_2		«Королевская корона - самый ценный предмет во всем мире...»	
+label_greed_lift_curse_3		«Однако вы не сможете снять проклятие без королевской короны...»	
+label_greed_lift_curse_kill_royal		«Надо же, тебе удалось убить короля, и он уронил свою корону!»	
+label_greed_new_villager		«Вы работаете слишком медленно, чтобы мне это нравилось...»	
+label_greed_new_villager_2		«Вот дополнительная помощь... А теперь поехали!»	
+label_greed_outro_wear_crown		«Ты не можешь носить королевскую корону, я не позволю»	
+label_happiness_infobox		В конце луны вам понадобятся [required_happiness_count] [happinessicon] чтобы ваши жители были счастливы	
+label_happiness_infobox_warning		Получите [happinessicon], чтобы их демоны не появились!	
+label_happiness_intro_1		«Добро пожаловать в мир печали»	
+label_happiness_intro_2		«Каждую луну нашим жителям нужно счастье»	
+label_happiness_intro_3		«Различные действия подарят им счастье»	
+label_happiness_intro_4		«Если жители деревни не получают достаточно счастья, появляются их демоны»	
+label_happiness_intro_5		«Вы можете снять наше проклятие?»	
+label_happiness_intro_title		Мир печали	
+label_happiness_return_0		Вы хотите вернуться на материк?	
+label_happiness_warning		Вам нужно [count] Счастье к концу следующей луны!	
+label_island_update		Остров	
+label_its_the_spirit		Это дух!	
+label_magic_lore		Фокупс покус!	
+label_magic_title		Магическая атака	
+label_main_game		Оригинал	
+label_melee_lore		Близкое и личное	
+label_melee_title		Атака в ближнем бою	
+label_menu_spirit_title		Проклятые миры	
+label_menu_spirit_title_locked		Проклятые миры уже в продаже!	
+label_missing_cards_text		Не удалось загрузить следующие карты, вероятно, из-за отсутствующего мода: [missing].##Хотите ли вы продолжить забег? Некоторые карты могут отсутствовать.	
+label_missing_cards_title		Отсутствующие карты	
+label_mod_update_type		Карточка с модификацией
+label_mods		Моды	
+label_mods_enable_title		Переключение модов	
+label_name_villager_text		Не привязывайтесь слишком сильно!	
+label_new_villager		Новый житель
+label_new_villager_death		A lonely Villager decided to settle in your village	
+label_new_villager_happiness		A new Villager heard about your happy village, and decided to settle here!	
+label_not_everyone_happy		Некоторые жители деревни не получили достаточно счастья...	
+label_open_workshop		Открыть мастерскую	
+label_random_name		Случайный выбор	
+label_ranged_lore		Атака на расстоянии	
+label_ranged_title		Атака дальнего боя	
+label_return_from_spirit_world_text		Вы уверены, что хотите покинуть этот мир духов? Мир перезагрузится, когда вы уйдете	
+label_return_from_spirit_world_title		Возвращение...	
+label_sadness_demon_text		У тебя было слишком много печали!	
+label_sadness_demon_title		Появился Демон Печали	
+label_screenshake_enabled		Включено сотрясение экрана 
+label_shaman_appeared		Шаман появился из ниоткуда	
+label_shaman_intro		Что-то не так	
+label_shaman_leaving_text		Шаман рассказал вам все, что знает, и покинет этот мир	
+label_shaman_leaving_title		Шаман уходит	
+label_spirit_dlc_not_installed_text		Получите доступ к новому контенту, купив DLC «Проклятые миры»	
+label_spirit_dlc_not_installed_title		Проклятые миры DLC	
+label_spirit_outro_1		«Спасибо, что помогли нам»
+label_spirit_outro_2		«Теперь вы можете вернуться в свой старый мир»
+label_spirit_outro_3		«Положите на меня все, что хотите вернуть...»
+label_spirit_outro_4		«...и я верну тебя обратно»	
+label_spirit_outro_choice_0		Продолжение здесь	
+label_spirit_outro_choice_1		Возвращение на материк 	
+label_spirit_update		Обновление духа	
+label_time_infobox	Теперь элементы управления могут быть переброшены, так что параметры будут заменены соответствующей клавишей	Текущее время. Есть [time_left] оставшиеся в этой луне.##Использовать [action_time_pause] сделать паузу или использовать [action_time_toggle] для переключения между игровыми скоростями	
+label_try_attack_royal_description		Будьте осторожны...	
+label_try_attack_royal_description_4		Он не будет дружелюбным всегда...
+label_try_attack_royal_description_8		Последнее предупреждение!	
+label_try_attack_royal_title		Разгневать королевскую особу
+label_update_text_spirit		Спасибо за покупку DLC «Проклятые миры»! ##Путешествуйте в три разных мира, где жителей преследуют коварные проклятия! Постройте свою деревню, а затем используйте новые карты и пакеты карт, чтобы снять проклятие! ##<i>DLC content is accessible after having completed the game's first boss fight.</i>	
+label_update_text_spirit_locked		Мы только что выпустили первое DLC Stacklands! Отправляйтесь в три разных мира, где жителей деревень преследуют коварные проклятия! Постройте свою деревню, а затем используйте новые карты и пакеты карт, чтобы снять проклятие! ##- 130+ новых карт#- 50+ новых квестов#- 15 новых пакетов карт#- 3-5 часов игрового времени
+label_update_title_spirit		Проклятые миры	
+label_villager_age_birthday		Некоторые жители деревни постарели
+label_villager_age_description		<one>Возраст: 1 Луна<other>Возраст: [age] Лун	
+label_villager_food_poisoning		[villager] получил пищевое отравление...
+label_villager_old		Старый [villager]
+label_villager_old_age_death		[villager] умер от старости	
+label_villager_sick		[villager] болеет...
+label_villager_young		Молодой [villager]	
+label_wow		Вау!
+pack_death_animals_text		Жизнь животных	
+pack_death_basic_text		Повседневная жизнь	
+pack_death_ideas_1_text		Мудрость жизни	
+pack_death_ideas_2_text		Глубокие мысли	
+pack_death_intro_text		Жизнь коротка	
+pack_death_locations_text		Конец	
+pack_greed_basic1_text		Чистая жадность	
+pack_greed_food_creatures_text		Благородные существа
+pack_greed_ideas1_text		Королевский изобретатель
+pack_greed_ideas2_text		Придворные приспособления
+pack_greed_intro_text		Жадное интро
+pack_greed_luxuries_text		Королевская роскошь
+pack_happiness_creatures_text		Счастливые животные
+pack_happiness_food_text		Душевная пища
+pack_happiness_ideas1_text		Счастливые мысли
+pack_happiness_ideas2_text		Счастлива до конца
+pack_happiness_intro_text		Счастливое начало
+pack_happiness1_text		Простая жизнь
+quest_5_succesfull_demands_text		Успешно выполните 5 требований
+quest_8_succesfull_demands_text		Успешно выполните 8 требований	
+quest_create_altar_text		Поговорите с шаманом, чтобы получить тайные знания	
+quest_death_befriend_cat_text		Подружитесь с кошкой	
+quest_death_breed_cow_text		Разводить корову	
+quest_death_build_lumbercamp_text		Постройте лагерь из пиломатериалов	
+quest_death_build_outhouse_text		Постройте флигель	Bouw een Plee	
+quest_death_create_fountain_of_youth_text		Создайте фонтан молодости	
+quest_death_cure_sick_villager_text		Вылечить больного жителя деревни	
+quest_death_explore_ruins_text		Исследуйте руины	
+quest_death_find_cure_text		Придумайте, как снять проклятие	
+quest_death_find_fix_text		Снять проклятие смерти	
+quest_death_have_3_cows_text		Заведите 3 коровы	
+quest_death_have_3_poop_text		Have 3 Poop	
+quest_death_make_cheese_text		Сделайте сыр	
+quest_death_name_villager_text		Назовите жителя деревни	
+quest_death_second_villager_text		Получите второго жителя деревни	
+quest_death_third_villager_text		Сделайте ребенка, пока не поздно...	
+quest_death_unlock_packs_text		Разблокируйте все пакеты	
+quest_death_villager_old_age_dead_text		Пусть житель деревни умрет от старости	
+quest_death_villager_old_text		Старый житель деревни	
+quest_enter_death_world_text		Посетите мир смерти	
+quest_enter_greed_world_text		Посетите мир жадности	
+quest_enter_happiness_world_text		Посетите мир печали	
+quest_fight_royal_guard_text		Сразитесь с королевскими гвардейцами	
+quest_find_death_world_text		Узнайте, как вызвать Дух смерти.	
+quest_find_greed_world_text		Узнайте, как вызвать Дух жадности.	
+quest_find_happiness_world_text		Узнайте, как вызвать Дух печали.
+quest_first_demand_text		Дождитесь первого требования королевской особы
+quest_get_grape_text		Соберите свой первый виноград
+quest_greed_brickyard_text		Постройте кирпичный двор
+quest_greed_find_fix_text		Снять проклятие жадности
+quest_greed_garden_text		Постройте сад
+quest_greed_lumbercamp_text		Постройте лагерь для лесоматериалов 
+quest_greed_mine_text		Постройте шахту	
+quest_greed_oak_barrel_text		Сделайте бочку	
+quest_greed_olive_oil_text		Сделайте оливковое масло	
+quest_greed_quarry_text		Постройте каменоломню	
+quest_greed_roasted_meat_text		Поджарьте мясо	
+quest_greed_sawmill_text		Постройте лесопилку	
+quest_greed_smelter_text		Постройте плавильню	
+quest_greed_stomping_vat_text		Постройте чаны для топтания	
+quest_greed_wine_text		Сделайте вино из винограда	
+quest_greed_wool_text		Получение шерсти от овцы	
+quest_happiness_admire_a_coin_text		Полюбуйтесь монетой	
+quest_happiness_all_packs_text		Разблокируйте все пакеты счастья	
+quest_happiness_bake_bread_text		Выпечка хлеба	
+quest_happiness_bake_pizza_text		Приготовьте пиццу	
+quest_happiness_build_charity_text		Создайте благотворительный фонд	
+quest_happiness_build_garden_text		Постройте сад	
+quest_happiness_build_museum_text		Постройте музей	
+quest_happiness_build_tavern_text		Постройте таверну	
+quest_happiness_create_flour_text		Создать муку	
+quest_happiness_find_fix_text		Снять проклятие печали	
+quest_happiness_get_2_happiness_text		2 счастья	
+quest_happiness_have_1_unhappiness_text		1 печаль	
+quest_happiness_have_10_unhappiness_text		10 печали	
+quest_happiness_have_5_unhappiness_text		5 печали	
+quest_happiness_make_dough_text		Приготовьте тесто	
+quest_open_death_intro_pack_text		Откройте пакет	
+quest_open_happiness_intro_pack_text		Откройте пакет	
+quest_open_pack_text		Откройте свой первый пакет	
+questgroup_death_mainquest		Жизнь и смерть	
+questgroup_death_misc		Разное о смерти
+questgroup_death_starter		Мир смерти	
+questgroup_discover_spirits		Познакомьтесь с шаманом	
+questgroup_greed_mainquest		Отдайте мне все!	
+questgroup_greed_misc		Предметы, подходящие для королевской семьи	
+questgroup_greed_starter		Мир алчности	
+questgroup_greed_thriving		Достойное королевство	
+questgroup_happiness_collecting		Веселые штучки	
+questgroup_happiness_cooking		Хорошая еда	
+questgroup_happiness_mainquest		Держите их счастливыми	
+questgroup_happiness_starter		Мир печали	
+questgroup_happiness_unhappy		Так грустно	
+specialhit_anxious_long		[chance]% шанс сделать [target] сердитым	
+statuseffect_angry_description		Рассерженные жители деревни будут сражаться с другими жителями	
+statuseffect_angry_lore		Слишком долго грустит	
+statuseffect_angry_name		Сердитый	
+statuseffect_anxious_description		Значительно снижает скорость работы	
+statuseffect_anxious_lore		Они чувствуют себя не в своей тарелке	
+statuseffect_anxious_name		Беспокойный	
+statuseffect_demand_description		Требует новых карт каждые несколько лун	
+statuseffect_demand_lore		Всегда хочет большего	
+statuseffect_demand_name		Жадность	
+statuseffect_sick_description		[damage] урон каждую [time]	
+statuseffect_sick_lore		Им плохо... Вокруг слишком много какашек!	
+statuseffect_sick_name		Больной	
+label_shaman_intro_demon		"Вы победили демона, и у вас появилась идея создания гребной лодки"
+label_shaman_intro_island		"Если вы хотите и дальше развивать свою деревню, вы можете посетить остров"
+label_beta_thanks		Спасибо!
+label_beta_text		Спасибо за помощь в тестировании Проклятых миров DLC!##If you want to jump right in to the new content, you can select Continue Run and start just after the demon was defeated. You can also start a brand new run by selecting Start New Run.##If you want to continue using an old save, copy it over to:#[saveDirectory]###Have fun! If you run into any issues, please let us know in the Stacklands Playtesters Discord!	
+label_shaman_intro_cursed		"Если вы хотите узнать больше о посещении Проклятых миров, вы можете поговорить со мной"
+label_shaman_intro_title		Шаман
+card_cursed_wand_name		Проклятый жезл
+card_cursed_wand_description		Он использует темную магию	
+label_magic_description		Магия сильна против дальнего боя, но слаба против ближнего
+label_melee_description		Ближний бой силен против магии, но слаб против дальнего боя	
+label_ranged_description		Дальний бой силен против ближнего боя, но слаб против магии
+label_different_mods		Этот файл сохранения использует другие моды, чем загруженный в данный момент. Для полной перезагрузки модов необходимо перезапустить игру
+label_debug_need_villagers		Не нужны жители: [on_off]
+label_restart_required		Требуется перезапуск	
+label_restart 		Перезапуск	
+card_industrial_revolution_name		Промышленная революция	
+card_industrial_revolution_description		Избыток 25 продуктов питания приведет к промышленной революции!	
+card_ore_deposit_name		Месторождение руды	
+card_ore_deposit_description		Здесь вы можете остановиться	
+card_worker_name		Рабочий	
+card_educated_worker_name		Образованный рабочий		
+card_worker_description		Работа с 9 до 5	
+card_educated_worker_description		Работайте умнее, а не больше	
+card_lumber_deposit_name		Месторождение лесоматериалов	
+card_lumber_deposit_description		Безделье в цифрах	
+card_ore_deposit_status		Горная руда	
+card_lumber_deposit_status		Сбор лесоматериалов	
+card_farmland_name		Сельскохозяйственные угодья	
+card_farmland_description		Дает зерно при сборе урожая	
+card_farmland_status		Сельскохозяйственная продукция	
+card_muesli_name		Мюсли
+card_muesli_description		Зерновой завтрак: еда будущего	
+pack_cities_ideas_text		Драгоценные ресурсы	
+pack_cities_basics_text		Драгоценные ресурсы	
+card_industrial_smelter_name		Промышленная плавильня
+card_industrial_smelter_description		Используется для плавки руд	
+card_industrial_smelter_status_0		Строительство промышленной плавильни	
+card_apartment_name		Квартира	
+card_apartment_description		Дешевые дома [amount] рабочих	
+card_apartment_free_space		В настоящее время имеет [free] space(s)	
+card_apartment_status_0		Строительство квартиры	
+card_water_wheel_name		Водяное колесо	
+card_water_wheel_description		Генерирует энергию из воды	
+card_water_wheel_status_0		Конструирование водяного колеса
+card_copper_ore_name		Медная руда	
+card_copper_ore_description		Оранжевая скала		
+card_copper_bar_name		Медный слиток	
+card_copper_bar_description		Используется для создания современных зданий	
+card_lightning_name		Молния	
+card_lightning_description		Может мгновенно плавить руды	
+card_rain_name		Дождь	
+card_rain_description		Можно собирать для получения воды
+card_sunshine_name		Солнечный свет	
+card_sunshine_description		Лучше взять с собой солнцезащитный крем!	
+card_wind_name		Ветер	
+card_wind_description		Если бы только вы могли как-то использовать его энергию...	
+card_water_pump_name		Водяной насос	
+card_water_pump_description		Насос для откачки воды из земли
+card_water_pump_status		Перекачивание воды	
+card_water_pump_status_0		Конструирование водяного насоса	
+card_energy_status_0		Генерация энергии	
+cardtype_energy		Энергия	
+label_debug_no_energy		Не использую энергию: [on_off]	
+statuseffect_no_energy_description		Этому устройству нужна энергия. Перейдите в режим просмотра энергии, чтобы подключить его к сети	
+statuseffect_no_energy_lore		Электрический гул БЗЗЗззззЗЗЗЗ
+statuseffect_no_energy_name		Необходимая энергия	
+pack_cities_intro_text		Промышленная революция	
+statuseffect_no_workers_description		В этом здании не хватает работников	
+statuseffect_no_workers_lore		Нехватка рабочей силы?	
+statuseffect_no_workers_name		Требуются рабочие	
+card_passive_energy_consumer_status		Потребление энергии	
+card_plastic_name		Пластик	
+card_plastic_description		Вы даже не успеете оглянуться, как окажетесь повсюду	
+card_plastic_status_0		Изготовление пластика	
+label_worker_inventory		Рабочие		
+label_wellbeing		Благополучие	
+card_gravel_deposit_name		Отложение гравия	
+card_gravel_deposit_description		Месторождение гравия
+card_gravel_deposit_status		Сбор гравия	
+card_water_deposit_name		Месторождение воды	
+card_water_deposit_description		Большое месторождение воды	
+card_water_deposit_status		Сбор воды	
+card_cement_name		Цемент	
+card_cement_description		Влажная смесь для строительных конструкций	
+card_cement_status_0		Смешивание цемента	
+card_lumber_name		Древесина	
+card_lumber_description		Незаменимый строительный материал	
+card_lumber_status_0		Распиловка древесины
+card_ten_dollar_name		10[icon]
+card_ten_dollar_description		Десятка	
+card_dollar_status_0		Конвертация денег	
+card_twenty_dollar_name		20[icon]	
+card_twenty_dollar_description		Двадцать баксов	
+card_fifty_dollar_name		50[icon]
+card_fifty_dollar_description		50 баксов	
+card_hundred_dollar_name		100[icon]
+card_hundred_dollar_description		На луну!	
+pack_cities_deposit_text		Месторождение ресурсов	
+quest_cities_welcome_text		Добро пожаловать в город	
+quest_cities_open_pack_text		Откройте свой первый пакет города	
+quest_cities_make_shack_text		Сделайте хижину для размещения рабочих	
+questgroup_cities_starter		Начните свой город	
+label_wellbeing_infobox_miserable		Жители несчастны! Измените ситуацию или потеряйте город...	
+label_wellbeing_infobox_unhappy		Жители недовольны! Поднимите свое самочувствие, строя достопримечательности	
+label_wellbeing_infobox_euphoric		Жители в эйфории!	
+label_wellbeing_infobox_happy		Жители счастливы	
+label_wellbeing_infobox_normal		Жители нейтральны	
+label_wellbeing_infobox_gameover		Город в разрухе	
+card_worker_homeless_text		Бездомный	
+card_creditcard_name		Кредитная карта	
+card_creditcard_description		Хранение денег	
+card_creditcard_status_0		Создание кредитной карты	
+questgroup_cities_automation		Поддерживайте порядок	
+card_creditcard_description_long		Карта, на которой хранятся деньги. Взаимодействуйте, чтобы снять деньги. Содержит [count]/[max_count][icon]	
+card_pollution_name		Загрязнение	
+card_pollution_description		Оставляет неприятный запах	
+quest_cities_make_treadmill_text		Сделайте колесо для хомяка	
+label_city_state_euphoric		Эйфорический	
+label_city_state_happy		Счастливый	
+label_city_state_normal		Нормальный	
+label_city_state_unhappy		Несчастный
+label_city_state_miserable		Угрюмый	
+label_city_state_gameover		Game Over	
+statuseffect_homeless_description		Этот Рабочий бездомный. Найдите ему дом до конца луны, чтобы не потерять благополучие	
+statuseffect_homeless_lore		На улицах...
+statuseffect_homeless_name		Бездомный	
+card_lightning_status		Выплавка руды	
+card_rain_status		Сбор воды	
+card_grain_name		Зерно	
+card_grain_description		Основной ингредиент для приготовления пищи	
+card_factory_name		Фабрика	
+card_factory_description		Бьющееся сердце современной эпохи	
+card_factory_status_0		Создание фабрики	
+card_muesli_status_0		Приготовьте мюсли	
+quest_cities_get_farmland_text		Постройте ферму	
+pack_cities_weather_text		Дикая погода	
+label_weather_report_text		Только что поступило сообщение: погодные условия будут меняться...	
+label_weather_report_title		Городские новости	
+card_factory_parts_name		Заводские детали	
+card_factory_parts_description		Маленькая часть большой машины	
+card_factory_parts_status_0		Конструирование заводских деталей
+quest_cities_build_basic_factory_text		Изготовление заводских деталей
+card_science_name		Наука
+card_science_description		Результат применения научного метода
+card_science_status_0		Создание науки
+card_uranium_name		Уран
+card_oil_name		Нефть
+card_oil_description		Мерзкая жижа динозавров
+card_oil_rig_name		Буровая платформа для нефтяных буровых установок
+card_oil_rig_description		Использует энергию для бурения скважин на нефть
+card_oil_rig_status_0		Строительство нефтяной буровой установки
+card_oil_rig_status_1		Добыча нефти
+card_oil_power_plant_name		Нефтяная электростанция
+card_oil_power_plant_description		Получает энергию из нефти
+card_oil_power_plant_status_0		Строительство нефтяной электростанции
+card_nuclear_power_plant_name		Атомная электростанция
+card_nuclear_power_plant_description		Использует уран для производства энергии
+card_nuclear_power_plant_status_0		Строительство атомной электростанции
+card_farmland_status_0		Полив сельскохозяйственных угодий
+card_farmland_status_1		Создание фермерских угодий
+label_toggle_worker_space		Взаимодействуйте, чтобы показать рабочих в здании
+label_worker		Рабочие	
+card_wind_turbine_name	Ветряная турбина	Ветряная турбина
+card_wind_turbine_description		Автоматически вырабатывает энергию	
+card_wind_turbine_status_0		Строительство ветряной турбины	
+card_electric_motor_name		Электрический двигатель	
+card_electric_motor_description		Крутящиеся магниты	
+card_electric_motor_status_0		Конструирование электродвигателя	
+card_city_hall_name		Мэрия	
+card_city_hall_description_old		Увеличивает количество карт на 1 за каждые 10 денег	
+card_city_hall_status_0		Строительство мэрии	
+card_automatic_resources_name		Автоматические ресурсы	
+card_automatic_resources_description		Бесконечная автоматизация	
+card_lumber_mill_name		Плантация деревьев		
+card_lumber_mill_description		Бесконечный источник древесины	
+card_lumber_mill_status_0		Создание плантации деревьев	
+card_lumber_mill_status		Сбор древесины	
+card_gravel_pit_name		Гравийный карьер	
+card_gravel_pit_description		Бесконечный источник гравия	
+card_gravel_pit_status_0		Строительство гравийного карьера
+card_gravel_pit_status		Добыча гравия	
+card_ore_mine_status		Горная руда	
+card_automatic_resources_rumor_name		Добыча	
+card_automatic_resources_rumor_description		Объедините депозит, детали фабрики и рабочего.##For example, doing this with a Lumber Deposit will make a Tree Plantation	
+cutscene_cities_first_moon_title		Прошла луна	
+cutscene_cities_first_moon_text_0		"Прошла первая луна, и благосостояние города было обновлено"	
+cutscene_cities_first_moon_text_1		"Ваша цель - повысить уровень благосостояния города. Не позволяйте ему опускаться слишком низко, иначе вы потеряете город..."	
+label_end_of_moon_cities_gained		Вы получили [amount] [icon] в эту луну	
+label_end_of_moon_cities_same		Your [icon] в эту луну все осталось по-прежнему	
+label_end_of_moon_cities_lost		Вы потеряли [amount] [icon] в этой луне	
+label_end_of_moon_cities_wellbeing		Благополучие
+label_dollar		Деньги	
+label_dollar_infobox		В настоящее время у вас [amount] [icon]	
+label_requirement_take_card		 [amount]x [card] в городе:
+label_requirement_take_dollars		[amount] денег в городе:	
+label_requirement_take_food		Использовано [amount] еды:	
+label_requirement_has_housing		Имеет жилье:	
+card_metal_scraps_name		Металлические обрезки	
+card_metal_scraps_description		Ржавые кусочки металла	
+card_storage_container_name		Контейнер для хранения	
+card_storage_container_description		Место для хранения ваших ресурсов. Содержащиеся в нем карты не учитываются при подсчете вашего запаса карт	
+card_storage_container_status_0		Конструирование контейнера для хранения	
+card_treadmill_name		Колесо хомяка	
+card_treadmill_description		Вырабатывает энергию с помощью труда	
+card_treadmill_status_0		Конструирование колеса для хомяка	
+card_fancy_apartment_name		Роскошная квартира	
+card_cinema_name		Кино	
+card_cinema_description		Только настоящее кино	
+card_cinema_status_1		Воспроизведение фильма 
+card_cinema_status_0		Создание кинотеатра	
+statuseffect_max_on_board_description		Вы уже построили эту достопримечательность	
+statuseffect_max_on_board_lore		Нам больше не нужно ничего подобного!	
+statuseffect_max_on_board_name		Максимум достигнут	
+pack_cities_ideas_2_text		Передовая автоматизация
+quest_cities_automatic_resources_text		Создайте плантацию деревьев
+quest_cities_get_oil_text		Бурить для добычи нефти	
+quest_cities_refine_oil_text		Сделать пластик	
+quest_cities_industrial_smelter_text		Сделайте промышленную плавильню	
+card_tornado_name		Торнадо	
+card_tornado_description		Повреждает близлежащие здания	
+card_wildfire_name		Дикий огонь	
+card_wildfire_description		Поджигает здания	
+card_recycling_center_name		Центр переработки отходов	
+card_recycling_center_description		Удаляет загрязнения с течением времени	
+card_recycling_center_status_0		Строительство центра переработки отходов	
+card_recycling_center_status_1		Переработка загрязненных материалов	
+card_landfill_name		Полигон	
+card_landfill_description		Удаляет загрязнения из города	
+card_landfill_description_long		Удаляет загрязнения из города. В настоящее время на территории [current] загрязнение	
+card_landfill_status_0		Строительство полигона для захоронения отходов	
+label_requirement_has_pollution		Каждый [amount] загрязнение:	
+cutscene_cities_landfill_overflow_title		Свалка переполнена!	
+cutscene_cities_landfill_overflow_text_0		Похоже, вы переполнили свалку...	
+cutscene_cities_landfill_overflow_text_1		Вы не сможете использовать его в течение некоторого времени...	
+card_overflowing_landfill_name		Переполненная свалка	
+card_overflowing_landfill_description		Это отвратительно	
+card_storage_container_name_override		[resource] Контейнер	
+card_storage_container_description_long		Контейнер, содержащий [amount] [resource]	
+cutscene_cities_disaster_title		Ох ох!	
+cutscene_cities_disaster_text_0		Только что произошла катастрофа	
+cutscene_cities_disaster_text_1		Катастрофы будут влиять на вашу игру по-разному	
+cutscene_cities_disaster_text_2		Удачи!
+card_academy_name		Академия	
+card_academy_status_0		Создание академии	
+card_academy_status		Обучение работников	
+card_trash_name		Мусор	
+card_trash_description		Время для погружения в мусорный контейнер	
+card_trash_status_1		Погружение в мусорный контейнер
+label_requirement_on_active_board		В городе:	
+label_requirement		Requirements	Ледяной	
+statuseffect_no_educated_workers_description		В этом здании не хватает образованных работников
+statuseffect_no_educated_workers_lore		Это тяжелая работа, но кто-то должен ее делать!	
+statuseffect_no_educated_workers_name		Требуются образованные работники	
+card_genius_name		Гений	
+card_genius_description		По слухам, у него IQ 538	
+card_particle_collider_name		Коллайдер частиц	
+card_particle_collider_description		Столкновение частиц на очень высокой скорости	
+card_particle_collider_status_0		Конструирование коллайдера частиц	
+card_particle_collider_status_1		Столкновение частиц	
+card_ufo_event_name		Упавший НЛО	
+card_ufo_event_description		Правительство пыталось скрыть это	
+cutscene_cities_event_ufo_title		Крушение
+cutscene_cities_event_ufo_text_0		Это неопознанный разбившийся объект...	
+cutscene_cities_event_ufo_text_1		Возможно, вам удастся разгадать некоторые из его технологий...
+card_quantum_entangled_uranium_name		Квантовая материя	
+card_quantum_entangled_uranium_description		Очень нестабильный ресурс, используемый в специальных машинах	
+card_quantum_entangled_uranium_status_0		Запутанный уран	
+statuseffect_dissolving_description		Этот ресурс со временем растворится	
+statuseffect_dissolving_lore		Она очень нестабильна	
+statuseffect_dissolving_name		Растворение	
+card_time_machine_name		Неизвестная машина	
+card_time_machine_description		Нужно много зарядов, прежде чем мы узнаем, что это такое
+card_time_machine_status_0		Конструирование неизвестной машины
+label_cardopedia_cities		2000
+cardtype_event		События
+cardtype_disaster		Катастрофы	
+cardtype_weather		Погода	
+card_ufo_event_status_1		Получение науки	
+card_gravel_name		Гравий	
+card_gravel_description		Крупнозернистый песок	
+pack_cities_oil_text		Черное золото	
+label_air_title		Воздух	
+label_foot_title		Foot	
+label_armour_title		Броня	
+label_air_description		Воздушные машины хороши против бронированных машин	
+label_foot_description		Пешие солдаты хороши против воздушной техники	
+label_armour_description		Бронетехника хороша против пеших солдат	
+label_air_lore		Я чувствую потребность... потребность в скорости	
+label_foot_lore		Внимание... Стоять!
+label_armour_lore		Гусеницы и шины	
+card_goblin_fighter_jet_name		Военный самолет гоблинов	
+card_goblin_fighter_jet_description		Гоблины теперь могут летать? Хорошо.	
+card_tank_name		Танк	
+card_tank_description		Безопасность на большом расстоянии	
+card_tank_status_0		Строительство танка	
+card_fighter_jet_name		Истребитель	
+card_fighter_jet_description		Высоко в небе	
+card_fighter_jet_status_0		Строительство истребителя	
+card_goblin_tank_name		Гоблинский танк	
+card_goblin_tank_description		Металлическое безумие	
+card_goblin_soldier_name		Гоблин-солдат
+card_goblin_soldier_description		Хитрый мальчишка	
+card_soldier_name		Солдат	
+card_soldier_description		Борется за безопасность города!
+card_soldier_status_0		Обучение солдата	
+card_barrack_name		Казармы	
+card_barrack_description		Военное здание, превращающее рабочих в солдат и производящее транспортные средства	
+card_barrack_status_0		Строительство казарм	
+label_cities_game_over_title		Город в руинах	
+label_cities_game_over_text		О нет, благосостояние города упало до нуля	
+label_cities_game_over_text_1		Город лежит в руинах... К сожалению, этот город потерян	
+card_toy_name		Игрушка		
+card_toy_description		На много лет опережает конкурентов	
+card_toy_status_0		Создание игрушки	
+quest_cities_barrack_text		Постройте казармы	
+card_event_goblin_attack_name		Конфликт с гоблинами	
+card_event_goblin_attack_description		Гоблины наступают!	
+card_event_goblin_attack_status_1		Нападение гоблинов приближается!	
+questgroup_cities_freedom		Свобода	
+questgroup_cities_power		Включить питание	
+quest_cities_soldier_text		Обучить солдата	
+quest_cities_tank_text		Постройте танк	
+quest_cities_jet_text		Постройте истребитель 
+questgroup_cities_mainquest		Продвигайте свой город	
+quest_cities_power_source_text		Постройте водяное колесо	
+quest_cities_fancy_apartement_text		Постройте роскошную квартиру	
+quest_cities_oil_power_text		Построить нефтяную электростанцию	
+quest_cities_landfill_text		Постройте полигон	
+quest_cities_particle_collider_text		Постройте коллайдер частиц	
+quest_cities_remove_trash_text		Убрать мусор	
+quest_cities_harvest_grain_text		Собирайте зерно, чтобы накормить своих рабочих	
+label_requirement_worker_amount_met		Рабочие:	
+card_dollar_split		Разделение денег	
+cutscene_cities_wellbeing_20_title		Новости о благополучии	
+cutscene_cities_wellbeing_20_text		Благосостояние города становится все выше	
+cutscene_cities_wellbeing_20_text_1		Будьте осторожны, ведь повышение уровня благосостояния приведет к нападению гоблинов!	
+cutscene_cities_wellbeing_10_title		Благополучие критически важно	
+cutscene_cities_wellbeing_10_text		Благополучие города достигает критического состояния	
+cutscene_cities_wellbeing_10_text_1		Когда ваше благосостояние достигнет 0, город падет	
+label_sellbox_cities_title		Карты экспорта	
+label_sellbox_cities_description		Перетащите карты сюда, чтобы экспортировать их в монеты	
+label_sell_cities		Экспорт	
+card_cinema_status_2		Работникам фильм понравился!		
+ideagroup_automation		Автоматизация	
+ideagroup_power		Энергия	
+card_cities_iron_mine_name		Железный рудник	
+card_cities_iron_mine_description		Специализируется на добыче железной руды	
+card_cities_iron_mine_status_0		Строительство железного рудника	
+card_copper_mine_name		Медный рудник	
+card_copper_mine_description		Специализируется на добыче медной руды	
+card_copper_mine_status_0		Строительство медного рудника	
+card_add_worker_name		Набор персонала	
+card_add_worker_description		Положите 20 денег на хижину, чтобы нанять работника	
+card_add_worker_status_0		Набор новых работников	
+card_cities_iron_mine_status_1		Добыча железной руды	
+card_copper_mine_status_1		Добыча медной руды	
+pack_cities_smeltables_text		Основные металлы	
+card_art_gallery_name		Художественная галерея	
+card_art_gallery_description		Превращает 50 денег в произведения искусства	
+card_art_gallery_status_0		Строительство художественной галереи	
+card_art_gallery_status_1		Создание искусства	
+quest_cities_art_gallery_text		Создайте художественную галерею	
+label_blueprint_wellbeing		Закончил новый рецепт	
+label_wellbeing_euphoric		Эйфорический	
+label_wellbeing_happy		Счастливый	
+label_wellbeing_normal		Нормальный	
+label_wellbeing_unhappy		Несчастный	
+label_wellbeing_miserable		Убогий	
+label_wellbeing_gameover		Game Over	
+label_city_wellbeing		Благополучие города	
+label_hover_status_wellbeing		Наведите курсор на ячейки благополучия, чтобы узнать, почему	
+label_city_advisor		Городской советник	
+label_update_title_cities		Stacklands 2000
+label_update_text_cities		Спасибо за покупку Stacklands 2000 DLC!##Наступила промышленная революция, и ваше маленькое жилище превратилось в большой современный город!  Управляйте благосостоянием города, создавайте инфраструктуру, используйте фабрики для производства современных материалов и многое другое! ##<i>Контент DLC становится доступен после получения достаточного количества продовольствия на материке.</i>	
+label_update_text_cities_locked		Мы недавно выпустили Stacklands 2000 DLC! Наступила промышленная революция, и ваше маленькое жилище превратилось в большой современный город! Управляйте благосостоянием города, создавайте инфраструктуру, используйте фабрики для производства передовых материалов и многое другое.##- 180+ новых карт#- 50+ новых квестов#- 15 новых пакетов карт#- 3-5 часов игры	
+label_menu_cities_title		Современная эпоха DLC	
+label_menu_cities_title_locked		DLC «Современная эпоха» уже в продаже!	
+label_cities_dlc		Города											
+card_robot_worker_name		Робот-рабочий
+card_robot_worker_status_0		Конструирование робота-рабочего	
+label_requirement_take_dollars_on_top		Имеет [amount] денег наверху:	
+card_ready_meal_name		Готовая еда	
+card_ready_meal_description		Микропластик со вкусом	
+card_ready_meal_status_0		Упаковка еды	
+card_landfill_status_1		Компостирование [amount] загрязнение	
+card_landfill_status_2		Решение экологической катастрофы...	
+card_collector_name		Коллекционер карт	
+card_collector_description		Работает как магнит
+card_collector_status_0		Создание коллекционера карт	
+card_uranium_mine_name		Урановый рудник	
+card_uranium_mine_description		Радио актив, радио актив
+card_uranium_mine_status_0		Строительство уранового рудника	
+card_uranium_mine_status_1		Добыча урана	
+card_uranium_deposit_name		Месторождение урана	
+card_uranium_deposit_description		Содержит небольшие следы урана	
+card_uranium_deposit_status_0		Сбор урана	
+quest_cities_academy_text		Построить академию	
+label_goblin_take_land_title		Гоблины
+label_goblin_take_land_text		На вашей доске появились гоблины!	
+label_goblin_take_land_text_1		За каждого гоблина вне конфликта вы теряете благосостояние	
+label_goblin_conflict_title		Конфликт с гоблинами 
+label_goblin_conflict_text		Группа гоблинов вошла в ваш город, чтобы напасть на него	
+card_radar_station_name		Радиолокационная станция
+card_radar_station_description		Обнаруживает атаки за 3 луны до их совершения	
+card_radar_station_status_0		Строительство радиолокационной станции	
+statuseffect_radar_description		Следующий конфликт произойдет в конце луны [amount]
+statuseffect_radar_lore		*бип бип*	
+statuseffect_radar_name		Обнаружен конфликт!	
+label_youtube_cities_dlc_title		Stacklands 2000 DLC - ранний доступ	
+label_youtube_cities_dlc_text		Это специальная сборка раннего доступа к Stacklands 2000 DLC!##You can quickly get access to the new content by using our pre-made save game.##It's also possible to continue normally from where your current save is.##If you want to start from scratch, clear your save data from the settings menu.
+card_financial_crisis_name		Финансовый кризис	
+card_financial_crisis_description		Кредитные дефолтные свопы, обернувшиеся провалом	
+label_financial_crisis_start		Финансовый кризис вот-вот ударит по экономике!	
+label_financial_crisis_text		Вы находитесь в середине финансового кризиса - цены на все пакеты выросли на 150%!
+card_earthquake_name		Землетрясение	
+card_earthquake_description		Шкала Рихтера 6,3	
+label_earthquake_start		Землетрясение!	
+label_cities_earthquake_text		Некоторые строения были повреждены...	
+label_cities_earthquake_text_1		Можно отремонтировать за деньги	
+label_cities_earthquake_title		Это землетрясение	
+label_damaged_card_cost		Использовать [amount][icon] для починки	
+label_fire_card_cost		Используйте воду для тушения	
+label_cities_wildfire_title		Дикий огонь!	
+label_cities_wildfire_text		По городу бродит огонь...	
+label_cities_wildfire_text_1		Используйте воду для тушения пожаров	
+label_wildfire_start		Огненный дозор заметил Дикий огонь!
+statuseffect_on_fire_description		Эта карта горит и должна быть потушена водой	
+statuseffect_on_fire_lore		Гори, малыш, гори	
+statuseffect_on_fire_name		В огне	
+statuseffect_damaged_description		Эта карта повреждена и нуждается в починке	
+statuseffect_damaged_lore		Повсюду развалины	
+statuseffect_damaged_name		Поврежденный	
+card_time_machine_status_1		Запуск машины времени	
+card_city_advisor_name		Городской советник	
+card_city_advisor_description		Посоветует вам, как вести себя в городе	
+label_debug_battery		Спаун с полной батареей	
+label_info_worker_space_title		Жилое пространство	
+label_info_worker_space_text		Нужно [workers] [icon] для размещения ваших рабочих 
+label_info_worker_space_text_1		Стройте больше жилья, чтобы не потерять благосостояние	
+cutscene_cities_first_energy_title		Использование энергии	
+cutscene_cities_first_energy_text_0		"Если вы хотите использовать это здание, вам необходимо подключить его к электросети."	
+cutscene_cities_first_energy_text_1		"Перейдите в раздел «Вид энергии» с помощью выпадающего списка в верхней части экрана."	
+cutscene_cities_first_energy_text_2		"В этом представлении вы можете соединить производителей энергии с ее потребителями. Вот пример производителя."	
+cutscene_cities_first_energy_text_3		"Попробуйте соединить их, перетащив один из разъемов."	
+cutscene_cities_first_energy_text_4		"Вот и все! Пусть у вас всегда будет достаточно производителей энергии!"	
+card_goblin_war_ship_name		Военный корабль гоблинов	
+card_goblin_war_ship_description		Плавает по семи морям	
+card_war_ship_name		Военный корабль	
+card_war_ship_description		Обеспечивает безопасность рыбы
+card_war_ship_status_0		Строительство военного корабля	
+card_goblin_attack_helicopter_name		Гоблинский вертолет	
+card_goblin_attack_helicopter_description		Воздушная поддержка гоблинов	
+card_attack_helicopter_name		Штурмовой вертолет	
+card_attack_helicopter_description		Глаз в небе	
+card_attack_helicopter_status_0		Конструирование боевого вертолета	
+card_sniper_name		Снайпер	
+card_sniper_description		Дальнозоркие солдаты	
+card_sniper_status_0		Обучение снайпера	
+card_goblin_sniper_name		Гоблин-стрелок	
+card_goblin_sniper_description		Гоблин с длинной винтовкой	
+pack_cities_arms_text		Министерство обороны	
+card_export_center_name		Экспортный центр	
+card_export_center_description		Экспортирует ресурсы, расположенные поверх него	
+card_export_center_status_0		Строительство экспортного центра	
+card_export_center_status_1		Экспорт карты	
+statuseffect_space_description		Осталось [amount] мест для жилья. Каждый Рабочий использует 1 жилищное пространство	
+statuseffect_space_lore		Просторы космоса	
+statuseffect_space_name		Жилое пространство	
+card_metal_scraps_status_0		Металлолом	
+cutscene_cities_financial_crisis_title		Финансовый кризис	
+cutscene_cities_financial_crisis_text		Напряжение нарастает, и мировой рынок рушится	
+cutscene_cities_financial_crisis_text_1		Все пакеты на 50% дороже	
+quest_cities_build_mine_text		Постройте рудную шахту	
+quest_cities_make_landfill_text		Постройте полигон	
+quest_cities_radar_station_text		Постройте радарную станцию	
+label_requirement_has_pollution_landfill		Имеет более [amount] загрязнение на свалке:	
+card_food_warehouse_name		Склад продуктов питания	
+card_food_warehouse_description		Магазины продуктов питания	
+card_food_warehouse_status_0		Строительство продовольственного склада	
+card_food_warehouse_description_long		Магазины [amount] [food]	
+card_food_warehouse_name_long		[food] Склад	
+label_requirement_needs_healing		Поврежден в результате конфликта:	
+label_toggle_on_off		Переключение вкл/выкл	
+label_on_off		Вкл/выкл	
+cutscene_cities_start_title		Добро пожаловать в ваш город	
+cutscene_cities_start_text_0		"Привет, добро пожаловать в современный город! Я - городской советник."	
+cutscene_cities_start_text_1		"Я буду заходить время от времени, чтобы помочь вам управлять городом."	
+cutscene_cities_start_text_3		"Удачи!"	
+statuseffect_depleted_description		Ферма истощена и нуждается в поливе	
+statuseffect_depleted_lore		Сухая грязь	
+statuseffect_depleted_name		Обедненный	
+card_rumor_genius_name		Эврика!	
+quest_cities_unlock_oil_text		Разблокируйте пакет «Черное золото»	
+card_pack_sale_name		Распродажа пакетов	
+card_pack_sale_text		Большая распродажа!	
+card_festival_name		Фестиваль	
+card_festival_description		Все празднуют	
+card_festival_text		Вечеринка!	
+pack_cities_industry_text		Впечатляющая промышленность
+card_stadium_name		Стадион	
+card_stadium_status_0		Строительство стадиона	
+card_stadium_status_1		Сейчас проводится мероприятие 
+card_display_2000_dlc_name		Stacklands 2000	
+card_display_2000_dlc_description		Купить Stacklands 2000 DLC чтобы получить доступ к этим картам	
+card_rumor_quantum_entangled_uranium_description		Две урановые карты, сталкивающиеся на высоких скоростях, должны вызвать несколько хороших искр...	
+card_energy_splitter_name		Расщепитель энергии	
+card_energy_splitter_description		Разделяет 1х высокое напряжение на 4х низкое напряжение	
+card_energy_splitter_status_0		Создание расщепителя энергии	
+card_energy_combiner_name		Комбинатор энергии	
+card_energy_combiner_description		Комбинирует 3x низкое напряжение и превращает его в 1x высокое напряжение	
+card_energy_combiner_status_0		Создание энергии 
+label_high_voltage		Высокое напряжение	
+label_low_voltage		Низкое напряжение	
+label_energy_input		Требуется	
+label_energy_output		Выходы	
+label_connection_type_output		Выход	
+label_connection_type_input		Вход	
+label_connection_high_voltage		Высокое напряжение	
+label_connection_low_voltage		Низкое напряжение	
+card_robot_station_name		Станция роботов	
+card_robot_station_description		Дома с роботами-рабочими	
+card_robot_station_status_0		Конструирование роботизированной станции	
+quest_cities_first_cable_text		Подключите энергетический кабель	
+quest_cities_5_low_power_text		Подключите 5 низковольтных разъемов	
+quest_cities_10_low_power_text		Подключите 10 низковольтных разъемов	
+quest_cities_high_power_text		Подключите высоковольтный разъем	
+quest_cities_5_high_power_text		Подключите 5 высоковольтных разъемов	
+quest_cities_lose_wellbeing_text		Потеряйте первое очко благополучия	
+quest_cities_gain_wellbeing_text		Получите свое первое очко благополучия	
+quest_cities_gain_5_wellbeing_text		Получить 5 очков благополучия за луну	
+quest_cities_lose_5_wellbeing_text		Потерять 5 очков благополучия за луну	
+quest_cities_40_wellbeing_text		Достичь 40 благосостояний	
+quest_cities_max_wellbeing_text		Максимально улучшите свое самочувствие	
+quest_cities_6_workers_text		6 работников	
+quest_cities_12_workers_text		12 работников	
+quest_cities_6_educated_workers_text		6 образованных работников	
+quest_cities_genius_text		Воспитать гения	
+quest_cities_full_container_text		Полный контейнер для хранения	
+quest_cities_conveyor_text		Используйте конвейер для перемещения предметов	
+quest_cities_collector_text		Используйте коллекционера для сбора карт	
+quest_cities_card_cap_text		Увеличьте лимит карты	
+card_festival_end_text		Фестиваль подходит к концу	
+card_park_name		Городской парк	
+card_park_description		Приятности на свежем воздухе	
+card_park_status_0		Строительство городского парка	
+label_requirement_has_energy		Имеет энергию:	
+cutscene_cities_first_landmark_title		Достопримечательности	
+cutscene_cities_first_landmark_text_0		Достопримечательности - это важные сооружения, которые придадут городу благосостояние	
+cutscene_cities_first_landmark_text_1		Некоторым достопримечательностям нужна энергия для работы - следите за тем, чтобы они работали, иначе вы потеряете благосостояние!	
+card_themepark_name		Парк развлечений	
+card_themepark_description		Я люблю американские горки	
+card_themepark_status_0		Строительство парка развлечений	
+label_blueprint_wellbeing_generation		Дает [amount] [icon] при строительстве	
+label_blueprint_pollution_generation		Генерирует [amount] [icon] при строительстве	
+card_villager_statue_name		Статуя деревенского жителя	
+card_villager_statue_description		Вспоминая старые времена жителей деревни
+card_villager_statue_status_0		Создание статуи деревенского жителя	
+card_hospital_name		Больница	
+card_hospital_description		Здоровье - это богатство	
+card_hospital_status_0		Строительство больницы
+card_airport_name		Аэропорт	
+card_airport_description		Время отдыхать!	
+card_airport_status_0		Строительство аэропорта	
+ideagroup_landmark		Достопримечательности	
+card_zoo_name		Зоопарк	
+card_zoo_description		Для любителей животных	
+card_zoo_status_0		Строительство зоопарка	
+card_toy_factory_name		Магазин игрушек	
+card_toy_factory_description		Всевозможные предметы коллекционирования	
+card_toy_factory_status_0		Строительство магазина игрушек
+questgroup_cities_landmark		Достопримечательности	
+quest_cities_build_second_landmark_text		Постройте вторую достопримечательность	
+quest_cities_all_landmarks_text		Постройте все достопримечательности	
+cutscene_cities_festival_title		Фестиваль	
+cutscene_cities_festival_text_0		Вашим работникам нравится фестиваль!	
+cutscene_cities_pack_sale_title		РАСПРОДАЖА ПАКЕТОВ!	
+cutscene_cities_pack_sale_text_0		Началась распродажа пакетов!	
+card_steam_generator_name		Burner Generator	
+card_steam_generator_description		Сжигает пиломатериалы для получения энергии	
+card_steam_generator_status_0		Конструкция генератора горелки	
+cutscene_cities_wellbeing_30_text		Ух ты, город выглядит просто потрясающе!	
+cutscene_cities_wellbeing_30_text_1		По городу поползли слухи...	
+card_laboratory_name		Лаборатория	
+card_laboratory_description		Где создается наука	
+card_laboratory_status_0		Строительство лаборатории	
+card_laboratory_status_1		Заниматься наукой	
+label_damaged		Поврежденный	
+label_on_fire		В огне	
+label_connector_info		Перетащите коннектор для соединения структур	
+label_take_time_machine		Машина времени	
+label_go_to_cities_mainland		Вы уверены, что хотите вернуться в город?	
+label_go_to_mainland_cities		Вы уверены, что хотите вернуться на материк?	
+card_time_machine_name_real		Машина времени	
+card_time_machine_desctiption_real		Возвращает вас в прошлое	
+label_recruiting_worker		Наем новых работников	
+card_shack_name		Лачуга	
+card_shack_description		Едва ли можно жить...	
+card_shack_status_0		Строительство лачуги	
+card_hydroponic_farm_name		Гидропонная ферма	
+card_hydroponic_farm_description		Использование воды для более эффективного ведения сельского хозяйства	
+card_hydroponic_farm_status_0		Строительство гидропонной фермы	
+label_requirement_take_card_negative		Имеет меньше [amount]x [card] в городе:	
+label_requirement_take_dollars_on_top_negative		Имеет меньше, чем [amount] денег наверху:	
+label_requirement_take_dollars_negative		Имеет менее [amount] денег в городе:	
+label_requirement_take_food_negative		Не в состоянии потреблять [amount] еды:	
+label_requirement_has_housing_negative		Жилья нет:	
+label_requirement_has_energy_negative		Не имеет энергии:
+label_requirement_worker_amount_met_negative		Нет рабочих:
+label_requirement_has_pollution_negative		Имеет [amount] загрязнения:	
+label_requirement_needs_healing_negative		Имеет полное здоровье:	
+label_requirement_has_pollution_landfill_negative		Имеет менее [amount] загрязнения:	
+label_requirement_on_active_board_negative		Не в городе:	
+label_requirement_in_conflict		В конфликте:	
+label_requirement_in_conflict_negative		Не в конфликте:	
+label_at_end_moon		В конце луны	
+label_requirement_landmark_first_time		Достопримечательность впервые появилась в городе:	
+label_requirement_landmark_first_time_negative		Достопримечательность города (после первого раза):	
+quest_cities_city_park_text		Постройте городской парк	
+quest_cities_30_wellbeing_text		Достигните 30 благосостояния	
+quest_cities_20_wellbeing_text		Достигните 20 благосостояния	
+quest_cities_50_wellbeing_text		Достигните 50 благосостояния	
+quest_cities_disaster_text		Станьте свидетелем катастрофы	
+quest_cities_get_bar_text		Выплавка руды	
+quest_cities_get_uranium_text		Сбор урана	
+label_abandon_city		Брошенный город	
+label_abandon_city_title		Покинуть этот город	
+label_abandon_city_text		Вы уверены, что хотите бросить этот город? Вы вернетесь на материк и навсегда потеряете город	
+label_skip		Пропустить	
+card_metal_scraps_status_2		Изготовление железного слитка	
+card_iron_bar_scraps_description		Превращение обрезков в железный слиток
+questgroup_cities_worker		Рабочая сила	
+quest_unlocked_all_cities_packs_text		Разблокировать все пакеты	
+quest_cities_build_themepark_text		Постройте тематический парк	
+card_bread_2000_name		Хлеб 2000	
+card_bread_2000_description		Хлеб: Заново изобретенный	
+card_bread_2000_status_0		Приготовление хлеба	
+label_energy_view		Изменить вид 
+card_event_industrial_revolution_name		Промышленная революция	
+card_event_industrial_revolution_description		Поместите жителя деревни на верхнюю часть этой карты, чтобы начать Промышленную революцию	
+label_go_to_cities		Промышленная революция	
+label_go_to_city_title		Stacklands 2000 - Промышленная революция	
+label_go_to_city_text		Хотите начать промышленную революцию? Вы покинете материк, но всегда сможете вернуться	
+label_cutscene_industrial_revolution_title		Начать революцию	
+label_cutscene_industrial_revolution_text		Ваш источник пищи очень стабилен - это позволяет жителям деревни сосредоточиться на более продвинутых технологиях...	
+label_cutscene_industrial_revolution_text_1		Вы открыли промышленную революцию!	
+control_toggle_energy_view		Включение/выключение дисплея просмотра	
+card_slums_name		Трущобы	
+card_slums_description		Слишком много лачуг в одном месте	
+card_slums_status_0		Превращение в трущобы	
+card_copper_deposit_name		Месторождение меди	
+card_copper_deposit_description		Содержит медную руду 
+card_copper_deposit_status		Сбор медной руды	
+card_iron_deposit_cities_name		Месторождение железа	
+card_iron_deposit_cities_description		Содержит железную руду	
+card_iron_deposit_cities_status		Сбор железной руды	
+card_solar_panel_name		Солнечная панель	
+card_solar_panel_description		Безграничная бесплатная энергия солнца	
+card_solar_panel_status_0		Выработка энергии	
+card_spy_name		Шпионский шпион	
+card_spy_description		Выглядит как гоблин!	
+label_landmark_fullname		Достопримечательность: [name]	
+card_drought_name		Засуха	
+card_drought_description		Пересохло!	
+label_drought_start		На радаре не видно дождя	
+label_cities_drought_title		Засуха	
+label_cities_drought_text		Город охватила засуха	
+label_cities_drought_text_1		Фермы перестанут функционировать, пока вы не дадите им 3 воды	
+statuseffect_drought_description		Фермерские земли превратились в пустошь	
+statuseffect_drought_lore		Здесь можно снять спагетти-вестерн	
+statuseffect_drought_name		Засуха	
+card_artwork_name		Произведение искусства	
+card_artwork_description		Новый Ван Гог?	
+card_recycling_center_description_long		Удаляет загрязнения из города. В настоящее время на территории [current] загрязнений	
+card_overflowing_recycling_center_name		Переполненный центр переработки отходов
+card_overflowing_recycling_center_description		Это все равно довольно мерзко	
+blueprint_citiesironbar_name		Железный слиток	
+quest_cities_storage_text		Построить контейнер для хранения	
+blueprint_copper_bar_status		Изготовление медной шины	
+card_merch_name		Мерч	Merch	Boutique	
+card_merch_description		Фанаты неистовствуют!	
+label_view_default		По умолчанию	
+label_view_energy		Энергия	
+label_view_sewage		Канализация	
+label_view_transport		Транспорт
+label_view_calamity		Бедствие	
+label_connection_sewer		Канализация		
+label_connection_transport		Транспорт	
+card_septic_tank_name		Септический резервуар	
+card_septic_tank_description		Хранилище какашек
+card_septic_tank_status_0		Создание септического резервуара	
+label_requirement_has_sewer_connected		Подключен к канализации:	
+label_requirement_has_sewer_connected_negative		Не подключен к канализации:
+statuseffect_no_sewer_description		Имеет шанс создать какашки, если не подключен к канализации	
+statuseffect_no_sewer_lore		Очень смело оставить его отключенным	
+statuseffect_no_sewer_name		Необходима канализация	
+card_water_treatment_plant_name		Станция очистки воды	
+card_water_treatment_plant_description		Преобразует сточные воды в воду	
+card_water_treatment_plant_status_0		Строительство станции очистки воды	
+card_water_treatment_plant_status_1		Фильтрация канализационных стоков	
+card_food_warehouse_status_2		Хранение продуктов	
+quest_cities_build_villager_statue_text		Постройте статую жителя деревни	
+cardtype_landmarks		Достопримечательности	
+card_road_builder_name		Дорожный строитель	
+card_road_builder_description		Гильдия строителей дорог, позволяет строить дороги между картами	
+card_road_builder_status_0		Создание дорожного строителя	
+card_fancy_apartment_status_0		Строительство элитной квартиры	
+quest_cities_time_machine_text		Постройте неизвестную машину	
+quest_cities_transport_text		Подключить транспортную дорогу	
+quest_cities_transport_5_text		Имеет 5 соединенных транспортных дорог
+card_time_machine_status_2		Зарядка неизвестной машины	
+card_alien_name		Инопланетянин	
+card_alien_description		Рабочий из космоса	
+card_alien_status_0		Создание инопланетянина	
+cutscene_cities_villager_timemachine_title		Вааа!	
+cutscene_cities_villager_timemachine_text_0		Где я оказался?	
+card_rumor_genius_description		Воспитание образованного работника при уровне благосостояния города в 50 создаст гения	
+card_robot_worker_description		Рабочий, сделанный из металла, не нуждается в пище!	
+card_academy_description		Используется для обучения ваших работников	
+card_stadium_description		Дома для спортивных мероприятий на несколько лун	
+card_fossil_name		Ископаемое	
+card_fossil_description		Костлявая неразбериха	
+card_city_hall_description_long		Увеличивает количество карт на 2 за каждые 10 заработанных денег. Также может быть использован для переименования рабочих.	
+card_city_hall_description		Увеличивает количество карт на 2 за каждые 10 заработанных денег. Также может быть использован для переименования рабочих
+card_dino_name		Ти-Рекс
+card_dino_description		Большой плохой дино	
+card_dino_status_0		Восстановление ископаемого	
+label_cities_time_ending_title		Монолог
+label_cities_time_ending_text		Пришло время для моего последнего изобретения...	
+label_cities_time_ending_text_1		Несмотря на то, что мы создали все эти технологии...	
+label_cities_time_ending_text_2		Мы заварили большую кашу, и я с этим покончил...	
+label_cities_time_ending_text_3		Я просто хочу снова поесть ягод!	
+label_cities_time_ending_text_4		Я хочу убраться отсюда!	
+label_cities_time_ending_text_5		До встречи!
+card_robot_soldier_name		Робот-солдат	
+card_robot_soldier_description		Роджер, Роджер, пиу-пау
+card_robot_soldier_status_0		Обучение робота-солдата	
+card_robot_genius_name		Робот-гений	
+card_robot_genius_description		Искусственный интеллект	
+quest_cities_robot_society_text		У вас есть 10 роботов-рабочих, но нет обычных рабочих	
+quest_cities_green_energy_text		Подключите 10 энергетических кабелей к «зеленой» энергии
+label_view_transport_default		Дорога
+questgroup_cities_misc		Задачи города
+questgroup_cities_wellbeing		Качество жизни
+card_cities_cat_name		Кот 2000
+card_cities_cat_description		Кошачья цивилизация?
+card_cities_dog_name		Собака 2000
+card_cities_dog_description		*вуф*
+label_requirement_energy_workers		Имеет энергию и рабочих:
+label_requirement_energy_workers_negative		Не имеет энергию и рабочих:
+cutscene_cities_particle_collider_title		Коллайдер частиц
+cutscene_cities_particle_collider_text		На нем есть большая красная кнопка с надписью «Старт»
+cutscene_cities_particle_collider_switch		Нажать кнопку
+cutscene_cities_particle_collider_text_1		Коллайдер создал нестабильную частицу!
+label_energy_view_infobox_old		Выберите текущий вид
+quest_cities_pets_text		Имеет 3 домашних животных	
+quest_cities_trex_text		Победите Ти-рекса	
+quest_cities_aliens_text		Иметь 3 инопланетянина
+label_dino_laboratory		Вы собираетесь начать опасный эксперимент. Вы уверены, что хотите это сделать?
+label_start_dino		Начать эксперимент
+label_cancel_dino		Отменить эксперимент
+card_filtered_junction_name		Фильтрующий узел
+card_filtered_junction_name_long		[card] Узел
+card_filtered_junction_description		Перетащите карту наверх, чтобы установить фильтр. Отфильтрованная карта будет выведена на верхнее дорожное соединение, а все остальные - на нижнее 
+card_filtered_junction_status_0		Построение фильтрующего узла
+card_filtered_crossroad_name		Фильтрующий перекресток
+card_filtered_crossroad_name_long		[card] Перекрестков	
+card_filtered_crossroad_description		Перетащите карту наверх, чтобы установить фильтр. Отфильтрованная карта будет выведена на верхнее дорожное соединение, а все остальные - на нижнее
+card_filtered_crossroad_status_0		Создание фильтрующего перекрестка	
+card_crab_scale_armor_description		Чешуя непробиваемая	
+control_toggle_view		Изменить вид
+label_energy_view_infobox		Выберите текущий вид. Вы также можете использовать [action_toggle_view] для переключения между видами
+card_fancy_apartment_description		Дома [amount] Работников
+card_transmission_tower_description		Брррззз. Используется для организации энергетических кабелей
+card_transmission_tower_name		Электрический столб	
+card_transmission_tower_status_0		Строительство электрического столба	
+card_junction_name		Узел	
+card_junction_description		Автоматически перенаправляет карты, лежащие сверху, на свои транспортные выходы. Циклически проходит через различные выходы по очереди	
+card_junction_status_0		Строительство узла	
+card_crossroad_name		Перекрестки	
+card_crossroad_description		Автоматически перенаправляет карты, лежащие поверх него, на свои выходы. Циклически перебирает различные выходы по очереди	
+card_crossroad_status_0		Строительство перекрестка	
+label_framerate_vsync		VSync											
+idea_resourcechest_status_2		Карта вывода											
+card_pack_sale_description		Скидка на пакеты 25%!	

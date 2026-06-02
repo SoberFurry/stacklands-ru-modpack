@@ -1,4 +1,4 @@
-﻿using HarmonyLib;
+using HarmonyLib;
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,18 +17,13 @@ namespace RecipeInspectorNS
             {
                 L = Logger;
                 RecipeCache.SetLogger(Logger);
-
-                // this.Path is set by the mod loader — works on any PC
                 _modPath = this.Path ?? "";
 
-                Harmony harmony = new Harmony("recipe_inspector");
-                foreach (var type in System.Reflection.Assembly.GetExecutingAssembly().GetTypes())
-                {
-                    try { harmony.CreateClassProcessor(type).Patch(); }
-                    catch (Exception ex) { Logger.Log($"Patch skip [{type.Name}]: {ex.Message}"); }
-                }
+                IconLoader.Init(_modPath, Logger);
 
-                Logger.Log("RecipeInspector loaded.");
+                new Harmony("recipe_inspector").PatchAll();
+
+                Logger.Log("RecipeInspector v1.6.0 loaded. ModPath: " + _modPath);
             }
             catch (Exception ex)
             {
@@ -38,7 +33,7 @@ namespace RecipeInspectorNS
 
         public override void Ready() { }
 
-        // ── Build cache AFTER SokLoc + WorldManager are both ready ─────────────
+        // ── Build cache AFTER SokLoc + WorldManager are both ready ──────────────
         [HarmonyPatch(typeof(GameScreen), "InitIdeaElements")]
         public class InitIdeaElementsPatch
         {
@@ -47,8 +42,8 @@ namespace RecipeInspectorNS
                 try
                 {
                     RecipeCache.Build();
-                    // Init panel now that we have valid data
                     RecipePanel.EnsureCreated(_modPath, L);
+                    RecipePanel.Init(); // Build UI immediately when game screen is ready
                 }
                 catch (Exception ex)
                 {
@@ -57,14 +52,14 @@ namespace RecipeInspectorNS
             }
         }
 
-        // ── Invalidate on world manager awake (before data is ready) ───────────
+        // ── Invalidate cache when world reloads ─────────────────────────────────
         [HarmonyPatch(typeof(WorldManager), "Awake")]
         public class WorldAwakePatch
         {
             public static void Postfix() { RecipeCache.InvalidateCache(); }
         }
 
-        // ── Rebuild on language change ──────────────────────────────────────────
+        // ── Rebuild cache on language change ────────────────────────────────────
         [HarmonyPatch(typeof(GameScreen), "UpdateIdeasLog")]
         public class LangChangePatch
         {
@@ -84,24 +79,7 @@ namespace RecipeInspectorNS
             }
         }
 
-        // ── Remove tab on blueprint complete (if KeepOnCraft = false) ─────────────
-        [HarmonyPatch(typeof(Blueprint), "CompleteBlueprint")]
-        public class BlueprintCompletePatch
-        {
-            public static void Postfix(Blueprint __instance)
-            {
-                try
-                {
-                    if (RecipeSettings.KeepOnCraft) return;
-                    if (RecipePanel.Instance == null) return;
-                    RecipePanel.OnBlueprintCompleted(__instance.CardId);
-                }
-                catch { }
-            }
-        }
-
-        // ── K key while hovering an IdeaElement → show Recipe Inspector ─────────
-        // Checks every frame in IdeaElement.Update if K is pressed while hovered.
+        // ── Configurable key while hovering IdeaElement → toggle recipe tab ─────
         [HarmonyPatch(typeof(IdeaElement), "Update")]
         public class IdeaElementUpdatePatch
         {
@@ -111,21 +89,20 @@ namespace RecipeInspectorNS
                 {
                     if (Keyboard.current == null) return;
                     if (!__instance.MyButton.IsHovered && !__instance.MyButton.IsSelected) return;
-                    if (!Keyboard.current.rKey.wasPressedThisFrame) return;
+
+                    if (!IsKeyDown(RecipeSettings.KeyOpen)) return;
 
                     RecipePanel.EnsureCreated(_modPath, L);
                     if (!RecipeCache.IsReady) RecipeCache.Build();
 
-                    // Get the result card for this blueprint/rumor
                     Blueprint bp = __instance.MyKnowledge as Blueprint;
-                    if (bp != null)
-                    {
-                        // Show all recipes for the result card of this blueprint
-                        string resultId = bp.Subprints?.Count > 0
-                            ? bp.Subprints[0].ResultCard
-                            : bp.CardId;
-                        RecipePanel.ToggleBlueprint(bp.CardId, resultId);
-                    }
+                    if (bp == null) return;
+
+                    string resultId = bp.Subprints?.Count > 0
+                        ? bp.Subprints[0]?.ResultCard ?? bp.CardId
+                        : bp.CardId;
+
+                    RecipePanel.ToggleBlueprint(bp.CardId, resultId);
                 }
                 catch (Exception ex)
                 {
@@ -137,9 +114,33 @@ namespace RecipeInspectorNS
                 }
             }
         }
+
+        // ── KeepOnCraft: remove tab when blueprint completes (unless locked) ─────
+        [HarmonyPatch(typeof(Blueprint), "CardCompleted")]
+        public class BlueprintCompletedPatch
+        {
+            public static void Postfix(Blueprint __instance)
+            {
+                try
+                {
+                    if (!RecipeSettings.KeepOnCraft)
+                        RecipePanel.OnBlueprintCompleted(__instance.CardId);
+                }
+                catch { }
+            }
+        }
+
+        // ── Helper: check configurable key pressed this frame ───────────────────
+        public static bool IsKeyDown(KeyCode kc)
+        {
+            try
+            {
+                if (Keyboard.current == null) return false;
+                string name = kc.ToString().ToLowerInvariant();
+                var key = Keyboard.current.FindKeyOnCurrentKeyboardLayout(name);
+                return key != null && key.wasPressedThisFrame;
+            }
+            catch { return false; }
+        }
     }
 }
-
-
-
-
