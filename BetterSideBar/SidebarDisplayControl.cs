@@ -27,6 +27,10 @@ namespace BetterSideBarNS
         private static bool _reflInit;
         private static bool _errorLogged;
 
+        // Набор instance-ID элементов которые игра показывает БЕЗ поиска —
+        // только реально открытые. Обновляется каждый раз когда поиска нет.
+        private static readonly HashSet<int> _discoveredIds = new HashSet<int>();
+
         private const string LBL_ALL   = "Все";
         private const string LBL_PIN   = "Закреп";
         private const string LBL_QUICK = "Быстро";
@@ -214,29 +218,51 @@ namespace BetterSideBarNS
         {
             public static void Postfix(GameScreen __instance, List<ExpandableLabel> ___ideaLabels, List<IdeaElement> ___ideaElements)
             {
-                string searchTerm  = __instance.IdeaSearchField?.text ?? "";
-                bool hasSearch     = !string.IsNullOrEmpty(searchTerm);
-                bool isRuSearch    = hasSearch && RuSearchIndex.IsCyrillicSearch(searchTerm);
-                bool filterActive  = ActiveTab != SidebarTab.All;
-                // Запускаем наш фильтр при ЛЮБОМ поиске (не только русском),
-                // чтобы скрывать неоткрытые рецепты при любом языке поиска.
-                // Без поиска и без вкладки — выходим, игра сама справится.
-                if (!filterActive && !hasSearch) return;
+                if (___ideaElements == null) return;
 
+                string searchTerm = __instance.IdeaSearchField?.text ?? "";
+                bool hasSearch    = !string.IsNullOrEmpty(searchTerm);
+                bool isRuSearch   = hasSearch && RuSearchIndex.IsCyrillicSearch(searchTerm);
+                bool filterActive = ActiveTab != SidebarTab.All;
+
+                // ── Режим без поиска и без вкладки ───────────────────────────────────
+                // Игра только что расставила правильную видимость (только открытые).
+                // Запоминаем эти элементы — они и есть "реально открытые".
+                if (!hasSearch && !filterActive)
+                {
+                    _discoveredIds.Clear();
+                    foreach (IdeaElement el in ___ideaElements)
+                        if (el != null && el.gameObject.activeSelf)
+                            _discoveredIds.Add(el.GetInstanceID());
+                    return; // игра сама всё правильно показала
+                }
+
+                // ── Режим с поиском или вкладкой ─────────────────────────────────────
                 try
                 {
-                    var expanded = GetExpandedState(__instance.IdeaElementsParent.GetComponentsInChildren<ExpandableLabel>());
+                    var expanded = GetExpandedState(
+                        __instance.IdeaElementsParent.GetComponentsInChildren<ExpandableLabel>());
 
                     foreach (IdeaElement el in ___ideaElements)
                     {
-                        if (!KnowledgeFound(el.MyKnowledge)) { el.gameObject.SetActive(false); continue; }
-                        bool pf = PassesTab(el);
-                        bool ps = !hasSearch || KnowledgeMatchesSearch(__instance, el.MyKnowledge, searchTerm);
+                        // Элемент открыт? — смотрим в захваченный набор.
+                        // Если набор пуст (первый запуск с поиском) — fallback на KnowledgeFound.
+                        bool discovered = _discoveredIds.Count > 0
+                            ? _discoveredIds.Contains(el.GetInstanceID())
+                            : KnowledgeFound(el.MyKnowledge);
+
+                        if (!discovered) { el.gameObject.SetActive(false); continue; }
+
+                        bool pf  = PassesTab(el);
+                        bool ps  = !hasSearch || KnowledgeMatchesSearch(__instance, el.MyKnowledge, searchTerm);
                         bool hov = el.MyButton.IsHovered || el.MyButton.IsSelected;
 
-                        if (hov) el.gameObject.SetActive(true);
+                        if (hov)
+                            el.gameObject.SetActive(true);
                         else if (pf && ps)
-                            el.gameObject.SetActive(hasSearch || (expanded.ContainsKey(el.MyKnowledge.Group) && expanded[el.MyKnowledge.Group]));
+                            el.gameObject.SetActive(
+                                hasSearch || (expanded.ContainsKey(el.MyKnowledge.Group)
+                                              && expanded[el.MyKnowledge.Group]));
                         else
                             el.gameObject.SetActive(false);
                     }
@@ -245,7 +271,11 @@ namespace BetterSideBarNS
                     {
                         bool any = lbl.Children.Any(go => {
                             var el = go.GetComponent<IdeaElement>();
-                            return el != null && KnowledgeFound(el.MyKnowledge) && PassesTab(el)
+                            if (el == null) return false;
+                            bool disc = _discoveredIds.Count > 0
+                                ? _discoveredIds.Contains(el.GetInstanceID())
+                                : KnowledgeFound(el.MyKnowledge);
+                            return disc && PassesTab(el)
                                    && (!hasSearch || KnowledgeMatchesSearch(__instance, el.MyKnowledge, searchTerm));
                         });
                         lbl.gameObject.SetActive(any);
@@ -253,15 +283,16 @@ namespace BetterSideBarNS
                         else if (any) lbl.IsExpanded = expanded.ContainsKey(lbl.Tag) && expanded[lbl.Tag];
                     }
 
-                    // ── Финальный проход: IsExpanded=true мог раскрыть все дочерние
-                    // элементы группы, включая неоткрытые. Скрываем их принудительно.
+                    // ── Финальный проход ──────────────────────────────────────────────
+                    // IsExpanded=true мог снова показать скрытые нами неоткрытые элементы.
                     foreach (IdeaElement el in ___ideaElements)
                     {
-                        if (!el.gameObject.activeSelf) continue; // уже скрыт — не трогаем
-                        bool found  = KnowledgeFound(el.MyKnowledge);
-                        bool passes = PassesTab(el);
-                        bool search = !hasSearch || KnowledgeMatchesSearch(__instance, el.MyKnowledge, searchTerm);
-                        if (!found || !passes || !search)
+                        if (!el.gameObject.activeSelf) continue;
+                        bool disc = _discoveredIds.Count > 0
+                            ? _discoveredIds.Contains(el.GetInstanceID())
+                            : KnowledgeFound(el.MyKnowledge);
+                        bool ps = !hasSearch || KnowledgeMatchesSearch(__instance, el.MyKnowledge, searchTerm);
+                        if (!disc || !PassesTab(el) || !ps)
                             el.gameObject.SetActive(false);
                     }
 
@@ -269,7 +300,8 @@ namespace BetterSideBarNS
                 }
                 catch (Exception ex)
                 {
-                    if (!_errorLogged) { _errorLogged = true; if (L != null) L.Log("Filter error (once): " + ex.Message); }
+                    if (!_errorLogged)
+                    { _errorLogged = true; if (L != null) L.Log("Filter error (once): " + ex.Message); }
                 }
             }
 

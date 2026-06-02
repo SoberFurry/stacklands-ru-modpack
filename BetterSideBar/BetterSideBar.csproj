@@ -57,8 +57,17 @@
       <LocalLowPath>$([System.IO.Path]::Combine($(APPDATA), '..', 'LocalLow'))</LocalLowPath>
       <ModsTarget>$(LocalLowPath)\sokpop\Stacklands\Mods\BetterSideBar</ModsTarget>
     </PropertyGroup>
-    <MakeDir Directories="$(ModsTarget)" Condition="!Exists('$(ModsTarget)')" />
-    <Copy SourceFiles="$(OutputPath)BetterSideBar.dll" DestinationFolder="$(ModsTarget)" />
-    <Message Text="BetterSideBar installed to $(ModsTarget)" Importance="high" />
+    <MakeDir Directories="$(ModsTarget)"                  Condition="!Exists('$(ModsTarget)')" />
+    <MakeDir Directories="$(ModsTarget)\Icons"            Condition="!Exists('$(ModsTarget)\Icons')" />
+    <Copy SourceFiles="$(OutputPath)BetterSideBar.dll"    DestinationFolder="$(ModsTarget)" />
+    <Copy SourceFiles="manifest.json"                     DestinationFolder="$(ModsTarget)"
+          Condition="Exists('manifest.json')" />
+    <Copy SourceFiles="config.json"                       DestinationFolder="$(ModsTarget)"
+          Condition="Exists('config.json')" />
+    <ItemGroup>
+      <IconFiles Include="Icons\*.png" />
+    </ItemGroup>
+    <Copy SourceFiles="@(IconFiles)"                      DestinationFolder="$(ModsTarget)\Icons" />
+    <Message Text="BetterSideBar → $(ModsTarget)" Importance="high" />
   </Target>
 </Project>
