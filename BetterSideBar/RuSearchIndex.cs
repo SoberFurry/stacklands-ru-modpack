@@ -145,6 +145,16 @@ namespace BetterSideBarNS
             }
         }
 
+        // Русские имена для карт модов у которых нет TSV локализации.
+        // Формат: cardId → (ru_name, ru_description)
+        private static readonly Dictionary<string, (string name, string desc)> _modCardRu =
+            new Dictionary<string, (string, string)>
+        {
+            ["compactstorage.magic_pouch"]       = ("Волшебный мешок",     "Может хранить 30 карт любого вида"),
+            ["compactstorage.food_warehouse"]    = ("Продовольственный склад", "Хранилище для еды"),
+            ["compactstorage.stacked_warehouses"] = ("Сложенные склады",    "Увеличенный склад"),
+        };
+
         private static void BuildCardBlobs(
             System.Collections.Generic.List<CardData> cards,
             System.Collections.Generic.List<Blueprint> blueprints)
@@ -155,16 +165,24 @@ namespace BetterSideBarNS
 
                 var parts = new List<string>();
 
-                // Russian name
-                string ruName = GetRuText(cd.NameTerm);
-                if (!string.IsNullOrEmpty(ruName)) parts.Add(ruName);
+                // Russian name: сначала проверяем словарь модовых карт
+                if (_modCardRu.TryGetValue(cd.Id, out var modRu))
+                {
+                    parts.Add(Normalize(modRu.name));
+                    parts.Add(Normalize(modRu.desc));
+                }
+                else
+                {
+                    // Russian name from TSV
+                    string ruName = GetRuText(cd.NameTerm);
+                    if (!string.IsNullOrEmpty(ruName)) parts.Add(ruName);
 
-                // Russian description
-                string ruDesc = GetRuText(cd.DescriptionTerm);
-                if (!string.IsNullOrEmpty(ruDesc)) parts.Add(ruDesc);
+                    // Russian description
+                    string ruDesc = GetRuText(cd.DescriptionTerm);
+                    if (!string.IsNullOrEmpty(ruDesc)) parts.Add(ruDesc);
+                }
 
                 // English name (normalized for fallback)
-                // English name added via term lookup (no SokLoc dependency)
                 parts.Add(Normalize(cd.NameTerm));
 
                 // Internal ID always searchable

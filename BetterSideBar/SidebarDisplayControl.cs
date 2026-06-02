@@ -284,16 +284,35 @@ namespace BetterSideBarNS
                     }
 
                     // ── Финальный проход ──────────────────────────────────────────────
-                    // IsExpanded=true мог снова показать скрытые нами неоткрытые элементы.
+                    // 1) IsExpanded=true мог снова показать скрытые нами неоткрытые.
+                    // 2) Дедупликация: если несколько Blueprint дают одну карту —
+                    //    оставляем только первый результат (нет смысла дублировать).
+                    var seenCardIds = new HashSet<string>();
                     foreach (IdeaElement el in ___ideaElements)
                     {
                         if (!el.gameObject.activeSelf) continue;
+
                         bool disc = _discoveredIds.Count > 0
                             ? _discoveredIds.Contains(el.GetInstanceID())
                             : KnowledgeFound(el.MyKnowledge);
                         bool ps = !hasSearch || KnowledgeMatchesSearch(__instance, el.MyKnowledge, searchTerm);
+
                         if (!disc || !PassesTab(el) || !ps)
+                        {
                             el.gameObject.SetActive(false);
+                            continue;
+                        }
+
+                        // Дедупликация по CardId при поиске
+                        if (hasSearch)
+                        {
+                            string cid = el.MyKnowledge?.CardId ?? "";
+                            if (!seenCardIds.Add(cid))
+                            {
+                                el.gameObject.SetActive(false);
+                                continue;
+                            }
+                        }
                     }
 
                     _errorLogged = false;
