@@ -23,6 +23,7 @@ namespace BetterSideBarNS
         private static Sprite _sprAll, _sprPin, _sprQuick, _sprNew, _sprReset;
 
         private static MethodInfo _kmSearch;
+        private static MethodInfo _kmFound;
         private static bool _reflInit;
         private static bool _errorLogged;
 
@@ -49,7 +50,13 @@ namespace BetterSideBarNS
         {
             if (_reflInit) return;
             _reflInit = true;
-            _kmSearch = AccessTools.Method(typeof(GameScreen), "KnowledgeMatchesSearch", new[] { typeof(IKnowledge), typeof(string) });
+            _kmSearch = AccessTools.Method(typeof(GameScreen), "KnowledgeMatchesSearch",
+                new[] { typeof(IKnowledge), typeof(string) });
+            // HasFoundKnowledge(IKnowledge) — правильный способ проверки открытия рецепта
+            _kmFound = AccessTools.Method(typeof(GameScreen), "HasFoundKnowledge",
+                new[] { typeof(IKnowledge) });
+            if (L != null) L.Log($"Reflection: KnowledgeMatchesSearch={((_kmSearch != null) ? "OK" : "null")}, " +
+                                  $"HasFoundKnowledge={((_kmFound != null) ? "OK" : "null")}");
         }
 
         private static bool KnowledgeMatchesSearch(GameScreen gs, IKnowledge knowledge, string term)
@@ -62,7 +69,19 @@ namespace BetterSideBarNS
         }
 
         private static bool KnowledgeFound(IKnowledge k)
-            => WorldManager.instance?.CurrentSave?.FoundCardIds?.Contains(k.CardId) ?? false;
+        {
+            EnsureReflection();
+            // Используем игровой метод HasFoundKnowledge если доступен —
+            // он корректно проверяет открытие знания (рецепта/слуха),
+            // а не просто наличие карты в FoundCardIds.
+            if (_kmFound != null && GameScreen.instance != null)
+            {
+                try { return (bool)_kmFound.Invoke(GameScreen.instance, new object[] { k }); }
+                catch { }
+            }
+            // Fallback: проверка через FoundCardIds
+            return WorldManager.instance?.CurrentSave?.FoundCardIds?.Contains(k.CardId) ?? false;
+        }
 
         private static Dictionary<object, bool> GetExpandedState(ExpandableLabel[] labels)
         {
@@ -230,6 +249,19 @@ namespace BetterSideBarNS
                         if (any && hasSearch) lbl.IsExpanded = true;
                         else if (any) lbl.IsExpanded = expanded.ContainsKey(lbl.Tag) && expanded[lbl.Tag];
                     }
+
+                    // ── Финальный проход: IsExpanded=true мог раскрыть все дочерние
+                    // элементы группы, включая неоткрытые. Скрываем их принудительно.
+                    foreach (IdeaElement el in ___ideaElements)
+                    {
+                        if (!el.gameObject.activeSelf) continue; // уже скрыт — не трогаем
+                        bool found  = KnowledgeFound(el.MyKnowledge);
+                        bool passes = PassesTab(el);
+                        bool search = !hasSearch || KnowledgeMatchesSearch(__instance, el.MyKnowledge, searchTerm);
+                        if (!found || !passes || !search)
+                            el.gameObject.SetActive(false);
+                    }
+
                     _errorLogged = false;
                 }
                 catch (Exception ex)
