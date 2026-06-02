@@ -218,7 +218,10 @@ namespace BetterSideBarNS
                 bool hasSearch     = !string.IsNullOrEmpty(searchTerm);
                 bool isRuSearch    = hasSearch && RuSearchIndex.IsCyrillicSearch(searchTerm);
                 bool filterActive  = ActiveTab != SidebarTab.All;
-                if (!filterActive && !isRuSearch) return;
+                // Запускаем наш фильтр при ЛЮБОМ поиске (не только русском),
+                // чтобы скрывать неоткрытые рецепты при любом языке поиска.
+                // Без поиска и без вкладки — выходим, игра сама справится.
+                if (!filterActive && !hasSearch) return;
 
                 try
                 {
